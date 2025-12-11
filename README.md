@@ -1,0 +1,2 @@
+# GiocoVero
+Primo gioco ;)
