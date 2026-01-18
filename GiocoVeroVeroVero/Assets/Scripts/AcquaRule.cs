@@ -13,17 +13,17 @@ public class AcquaRule : MonoBehaviour
     public void Primo()
     {
         cameraMovement.MoveCamera();
-        elementAnimation.PlayAnimation("Acqua-Primo",0);
+        elementAnimation.PlayAnimation("Acqua-Primo");
     }
 
     public void Secondo()
     {
-        cameraMovement.MoveCamera(cameraTarget, 0.5f, 0.5f);
+        cameraMovement.MoveCamera(cameraTarget, 0.5f, 0f);
         elementAnimation.PlayAnimation("Acqua-Secondo");
     }
 
     public void Terzo()
     {
-        elementAnimation.PlayAnimation("Acqua-Terzo",2);
+        elementAnimation.PlayAnimation("Acqua-Terzo");
     }
 }

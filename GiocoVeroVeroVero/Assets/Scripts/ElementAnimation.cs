@@ -13,16 +13,17 @@ public class ElementAnimation : MonoBehaviour
 
     public void PlayAnimation(string animation)
     {
-        StartCoroutine(AnimationSequence(animation));
+        animator.Play(animation);
+        GameManager.Instance.currentAnimationSeconds=animator.GetCurrentAnimatorStateInfo(0).length;
     }
 
-    public void PlayAnimation(string animation, int stop)
-    {
-        StartCoroutine(AnimationSequence(animation, stop));
-    }
+    
 
 
-    public IEnumerator AnimationSequence(string animation)
+    
+
+/* 
+public IEnumerator AnimationSequence(string animation)
     {
         GameManager.Instance.isAnimating = true;
         animator.Play(animation);
@@ -30,15 +31,24 @@ public class ElementAnimation : MonoBehaviour
         GameManager.Instance.currentAnimationSeconds=animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         GameManager.Instance.isAnimating = false;
+
     }
 
-    public IEnumerator AnimationSequence(string animation, int stop)
+
+
+public void PlayAnimation(string animation, int stop)
     {
-        GameManager.Instance.isAnimating = true;
+        StartCoroutine(AnimationSequence(animation, stop));
+    }
+
+   public IEnumerator AnimationSequence(string animation, int stop)
+    {
+    GameManager.Instance.isAnimating = true;
         animator.Play(animation);
         yield return null;
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         yield return new WaitForSeconds(stop);
         GameManager.Instance.isAnimating = false;
-    }
+
+    }*/
 }

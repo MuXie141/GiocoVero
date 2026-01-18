@@ -23,8 +23,6 @@ public class CameraMovement : MonoBehaviour
         StartCoroutine(MoveCoroutine());
     }
 
-
-
     public void MoveCamera()
     {
         wait = movementTime;

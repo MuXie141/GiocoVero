@@ -522,7 +522,19 @@ MonoBehaviour:
           m_CallState: 2
     onAbsent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1757812752}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: RuleNotExecuted
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - targetId: Sfera
     targetLevel: 0
     onPresent:
@@ -542,7 +554,19 @@ MonoBehaviour:
           m_CallState: 2
     onAbsent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1757812752}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: RuleNotExecuted
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - targetId: Buco
     targetLevel: 0
     onPresent:
@@ -562,7 +586,19 @@ MonoBehaviour:
           m_CallState: 2
     onAbsent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1757812752}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: RuleNotExecuted
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   onUpdateRules: []
 --- !u!114 &180584838
 MonoBehaviour:
@@ -12407,7 +12443,19 @@ MonoBehaviour:
           m_CallState: 2
     onAbsent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1757812752}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: RuleNotExecuted
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   onUpdateRules: []
 --- !u!114 &1664112911
 MonoBehaviour:
@@ -17323,6 +17371,7 @@ MonoBehaviour:
   History: []
   isAnimating: 0
   currentAnimationSeconds: 0
+  ruleExecuted: 0
 --- !u!4 &1757812753
 Transform:
   m_ObjectHideFlags: 0

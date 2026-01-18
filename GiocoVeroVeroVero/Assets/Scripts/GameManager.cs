@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public bool isAnimating = false;
 
     public float currentAnimationSeconds;
+
+    public bool ruleExecuted;
    
 
     void Awake()
@@ -42,6 +44,12 @@ public class GameManager : MonoBehaviour
         {
             History[i].ExecuteUpdateRule();
         }
+    }
+
+    //Non so se è meglio fare così o controllare se onabsent o onpresent list.count != 0 
+    public void RuleNotExecuted()
+    {
+        ruleExecuted = false;
     }
 
     

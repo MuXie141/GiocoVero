@@ -10,6 +10,6 @@ public class BucoRule : MonoBehaviour
     }
     public void Primo()
     {
-        elementAnimation.PlayAnimation("Buco-Primo",2);
+        elementAnimation.PlayAnimation("Buco-Primo");
     }
 }

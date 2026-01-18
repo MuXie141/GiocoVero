@@ -23,16 +23,15 @@ public class GameElement : MonoBehaviour
         public UnityEvent onAbsent;     
     }
 
-    
     public void Activate()
     {
         if (GameManager.Instance.isAnimating) return;
+        GameManager.Instance.isAnimating = true;
         isActive = true;
         sprite.SetActive(!sprite.activeSelf);
         ExecuteRule();
         button.SetActive(false);
         GameManager.Instance.RegisterElement(this);
-        GameManager.Instance.UpdateRules();
     }
 
     private void ExecuteRule()
@@ -42,23 +41,28 @@ public class GameElement : MonoBehaviour
 
     private IEnumerator ExecuteRuleCoroutine()
     {
-        yield return null;
         foreach (var rule in onActiveRules)
         {
-           
+            GameManager.Instance.ruleExecuted = false;
             if (GameManager.Instance.IsElementActive(rule.targetId, rule.targetLevel))
             {
+                GameManager.Instance.ruleExecuted = true;
                 rule.onPresent.Invoke();
-                
             }
             else
             {
+                GameManager.Instance.ruleExecuted = true;
                 rule.onAbsent.Invoke();
                 
             }
-            yield return new WaitForSeconds(3.0f);
-            yield return new WaitForSeconds(GameManager.Instance.currentAnimationSeconds+2f);
+            yield return null;
+            if(GameManager.Instance.ruleExecuted==true)
+            {
+                yield return new WaitForSeconds(GameManager.Instance.currentAnimationSeconds);
+            }
         }
+
+        GameManager.Instance.UpdateRules();
     }
 
     
@@ -77,5 +81,7 @@ public class GameElement : MonoBehaviour
                 rule.onAbsent.Invoke();
             }
         }
+        GameManager.Instance.isAnimating = false;
+
     }
 }
