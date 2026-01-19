@@ -13,30 +13,34 @@ public class CameraMovement : MonoBehaviour
     private Vector3 endPos;
     private float duration;
     private float wait;
+    private Coroutine activeFatherCoroutine;
+    private Coroutine activeDaughterCoroutine;
 
     public void MoveCamera(Transform targetPos, float d, float w)
     {
+        StopCoroutines();
         wait = w;
         duration = d;
         startPos = transform.position;
         endPos = targetPos.position;
-        StartCoroutine(MoveCoroutine());
+        activeFatherCoroutine = StartCoroutine(MoveCoroutine());
     }
 
     public void MoveCamera()
     {
+        StopCoroutines();
         wait = movementTime;
         duration = waitTime;
         startPos = transform.position;
         endPos = targetPosition.position;
-        StartCoroutine(MoveCoroutine());
+        activeFatherCoroutine = StartCoroutine(MoveCoroutine());
     }
 
     private IEnumerator MoveCoroutine()
     {
-        yield return StartCoroutine(Move(startPos, endPos, duration));
+        yield return activeDaughterCoroutine = StartCoroutine(Move(startPos, endPos, duration));
         yield return new WaitForSeconds(wait);
-        yield return StartCoroutine(Move(endPos, startPos, duration));
+        yield return activeDaughterCoroutine = StartCoroutine(Move(endPos, startPos, duration));
     }
 
     private IEnumerator Move(Vector3 start, Vector3 end, float time)
@@ -49,5 +53,12 @@ public class CameraMovement : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
+    }
+
+    private void StopCoroutines()
+    {
+        if (activeFatherCoroutine != null) StopCoroutine(activeFatherCoroutine);
+
+        if (activeDaughterCoroutine != null) StopCoroutine(activeDaughterCoroutine);
     }
 }

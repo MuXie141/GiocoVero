@@ -18,7 +18,7 @@ public class AcquaRule : MonoBehaviour
 
     public void Secondo()
     {
-        cameraMovement.MoveCamera(cameraTarget, 0.5f, 0f);
+        cameraMovement.MoveCamera(cameraTarget, 0.5f, 0.1f);
         elementAnimation.PlayAnimation("Acqua-Secondo");
     }
 

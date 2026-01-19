@@ -13,11 +13,28 @@ public class GameManager : MonoBehaviour
     public float currentAnimationSeconds;
 
     public bool ruleExecuted;
-   
+
+    [Header("Impostazione Scena")]
+    public List<GameObject> ActiveOnStart;
+    public List<GameObject> DisableOnStart;
+    
 
     void Awake()
     {
         Instance = this;
+    }
+
+    void Start()
+    {
+        foreach (GameObject item in ActiveOnStart)
+        {
+            item.SetActive(true);
+        }
+
+        foreach (GameObject item in DisableOnStart)
+        {
+            item.SetActive(false);
+        }
     }
 
     public bool IsElementActive(string targetId, sbyte targetLevel)
