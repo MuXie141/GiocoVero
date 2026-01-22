@@ -305,16 +305,6 @@ AnimationClip:
     - time: 0.33333334
       value: {fileID: -516940570770696794, guid: 3ea3b9d79afd40f4b8a182137b99e851, type: 3}
     - time: 2.3333333
-      value: {fileID: -3337038689812066966, guid: 1d0edd8034d676a44a03b48ad08a8ea0, type: 3}
-    - time: 2.5333333
-      value: {fileID: 6148273488161214862, guid: dc7cd98a4d6a4eb41a1dbce9030dbcd0, type: 3}
-    - time: 2.7333333
-      value: {fileID: -3337038689812066966, guid: 1d0edd8034d676a44a03b48ad08a8ea0, type: 3}
-    - time: 2.9333334
-      value: {fileID: 6148273488161214862, guid: dc7cd98a4d6a4eb41a1dbce9030dbcd0, type: 3}
-    - time: 3.1333334
-      value: {fileID: -3337038689812066966, guid: 1d0edd8034d676a44a03b48ad08a8ea0, type: 3}
-    - time: 3.3333333
       value: {fileID: 6148273488161214862, guid: dc7cd98a4d6a4eb41a1dbce9030dbcd0, type: 3}
     attribute: m_Sprite
     path: 
@@ -366,18 +356,13 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
     - {fileID: -516940570770696794, guid: 3ea3b9d79afd40f4b8a182137b99e851, type: 3}
-    - {fileID: -3337038689812066966, guid: 1d0edd8034d676a44a03b48ad08a8ea0, type: 3}
-    - {fileID: 6148273488161214862, guid: dc7cd98a4d6a4eb41a1dbce9030dbcd0, type: 3}
-    - {fileID: -3337038689812066966, guid: 1d0edd8034d676a44a03b48ad08a8ea0, type: 3}
-    - {fileID: 6148273488161214862, guid: dc7cd98a4d6a4eb41a1dbce9030dbcd0, type: 3}
-    - {fileID: -3337038689812066966, guid: 1d0edd8034d676a44a03b48ad08a8ea0, type: 3}
     - {fileID: 6148273488161214862, guid: dc7cd98a4d6a4eb41a1dbce9030dbcd0, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 3.35
+    m_StopTime: 2.35
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -1323,4 +1308,11 @@ AnimationClip:
     flags: 0
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 2.3333333
+    functionName: ChangeMoreTime
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
