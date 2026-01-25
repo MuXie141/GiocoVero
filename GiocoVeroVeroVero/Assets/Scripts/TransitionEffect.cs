@@ -3,14 +3,18 @@ using System.Collections;
 
 public class TransitionEffect : MonoBehaviour
 {
-    private Material material;
-    [SerializeField] private float time = 10f;
+    [Header("Normal")]
+    [SerializeField] private float duration;
     [SerializeField] private AnimationCurve curve;
-    [Header("If loop")]
-    [SerializeField] private int loopCount;
+    [Header("Flashing")]
+    [SerializeField] private float flashDuration;
+    [SerializeField] private int flashCount;
+    [SerializeField] private AnimationCurve flashCurve;
 
-    private float timer, value;
-    private int times;
+    private bool flash;
+    private float timer, value, time, times;
+    private Material material;
+    private AnimationCurve animationCurve;
 
 
 
@@ -25,11 +29,21 @@ public class TransitionEffect : MonoBehaviour
 
     public void Change()
     {
-        times = loopCount + 1;
+        flash = false;
         timer = 0f;
+        animationCurve = curve;
+        time = duration;
         StartCoroutine(ChangeCoroutine());
     }
-
+    public void ChangeMoreTime()
+    {
+        flash = true;
+        timer = 0f;
+        animationCurve = flashCurve;
+        time = flashDuration;
+        times = 1;
+        StartCoroutine(ChangeCoroutine());
+    }
     private IEnumerator ChangeCoroutine()
     {
         if(timer == 0)
@@ -55,17 +69,17 @@ public class TransitionEffect : MonoBehaviour
             material.SetFloat("_Value", curve.Evaluate(0f));
             timer = 0;
         } 
-        if(times <= loopCount)
-        {
-            times++;
-            StartCoroutine(ChangeCoroutine());
-        }
+
+        if(!flash) yield break;
+        Flash();
     }
 
-    public void ChangeMoreTime()
+    private void Flash()
     {
-        times = 0;
-        timer = 0f;
-        StartCoroutine(ChangeCoroutine());
+            times = times + 0.5f;
+            if(times==flashCount) flash = false;
+            StartCoroutine(ChangeCoroutine());
     }
+
+    
 }

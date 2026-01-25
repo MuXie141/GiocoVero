@@ -134,6 +134,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Pala_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 57
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f08956e2cf3f6c48815eb388536795f
+      internalID: -1754816328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -149,6 +171,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Pala_0: -516940570770696794
+      Pala_1: -1754816328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
