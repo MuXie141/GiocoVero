@@ -10,9 +10,11 @@ public class GameManager : MonoBehaviour
 
     public bool isAnimating = false;
 
-    public float currentAnimationSeconds;
+    //public float currentAnimationSeconds;
 
-    public bool ruleExecuted;
+    public bool ruleExecuted, doNothing, transitioning;
+    public bool wait;
+
 
     [Header("Impostazione Scena")]
     public List<GameObject> ActiveOnStart;
@@ -68,6 +70,8 @@ public class GameManager : MonoBehaviour
     {
         ruleExecuted = false;
     }
+
+
 
     
 

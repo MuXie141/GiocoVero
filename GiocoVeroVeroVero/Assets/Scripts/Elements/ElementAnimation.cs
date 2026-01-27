@@ -13,10 +13,30 @@ public class ElementAnimation : MonoBehaviour
 
     public void PlayAnimation(string animation)
     {
+        GameManager.Instance.wait = true;
         animator.Play(animation);
-        GameManager.Instance.currentAnimationSeconds=animator.GetCurrentAnimatorStateInfo(0).length;
+        Debug.Log("Animazione eseguita!");
+        //GameManager.Instance.currentAnimationSeconds = GetCurrentAnimatorStateInfo(0).length;
+        StartCoroutine(WaitForAnim(animation));
     }
 
+    IEnumerator WaitForAnim(string stateName) 
+    {
+ 
+        yield return null; // Perchè potrebbe catturare animazione precedente
+
+        AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+
+        while (info.IsName(stateName) && info.normalizedTime < 0.98f) {
+            info = animator.GetCurrentAnimatorStateInfo(0);
+            yield return null;
+        }
+
+        Debug.Log("Animazione completata con successo");
+        GameManager.Instance.wait = false;
+
+
+    }
     
 
 

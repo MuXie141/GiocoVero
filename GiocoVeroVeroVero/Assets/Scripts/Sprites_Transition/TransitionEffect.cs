@@ -29,6 +29,7 @@ public class TransitionEffect : MonoBehaviour
 
     public void Change()
     {
+        GameManager.Instance.transitioning = true;
         flash = false;
         timer = 0f;
         animationCurve = curve;
@@ -37,6 +38,7 @@ public class TransitionEffect : MonoBehaviour
     }
     public void ChangeMoreTime()
     {
+        GameManager.Instance.transitioning = true;
         flash = true;
         timer = 0f;
         animationCurve = flashCurve;
@@ -70,7 +72,12 @@ public class TransitionEffect : MonoBehaviour
             timer = 0;
         } 
 
-        if(!flash) yield break;
+        if(!flash)
+        {
+            GameManager.Instance.transitioning = false;
+            //if(GameManager.Instance.doNothing == false) GameManager.Instance.wait = false;
+            yield break;
+        } 
         Flash();
     }
 

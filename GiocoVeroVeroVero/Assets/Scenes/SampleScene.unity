@@ -795,6 +795,8 @@ GameObject:
   m_Component:
   - component: {fileID: 195625844}
   - component: {fileID: 195625846}
+  - component: {fileID: 195625848}
+  - component: {fileID: 195625847}
   m_Layer: 0
   m_Name: Lombrichi
   m_TagString: Untagged
@@ -835,8 +837,52 @@ MonoBehaviour:
   level: 0
   sprite: {fileID: 2101523599}
   button: {fileID: 1062357211}
-  onActiveRules: []
+  onActiveRules:
+  - targetId: Sfera
+    targetLevel: 0
+    onPresent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 195625848}
+          m_TargetAssemblyTypeName: LombrichiRule, Assembly-CSharp
+          m_MethodName: Primo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onAbsent:
+      m_PersistentCalls:
+        m_Calls: []
   onUpdateRules: []
+--- !u!114 &195625847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195625843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f642ad1225defd04cb1f998a38f3fc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ElementAnimation
+--- !u!114 &195625848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195625843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381ec8567386b8f4d8b69c9081188e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LombrichiRule
 --- !u!1 &258404141
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,9 +935,12 @@ MonoBehaviour:
   sprite: {fileID: 587485519}
   button: {fileID: 1438527316}
   onActiveRules:
-  - targetId: Sfera
+  - targetId: Niente
     targetLevel: 0
     onPresent:
+      m_PersistentCalls:
+        m_Calls: []
+    onAbsent:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 258404145}
@@ -906,9 +955,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    onAbsent:
-      m_PersistentCalls:
-        m_Calls: []
   onUpdateRules: []
 --- !u!114 &258404145
 MonoBehaviour:
@@ -933,6 +979,8 @@ GameObject:
   m_Component:
   - component: {fileID: 339558377}
   - component: {fileID: 339558379}
+  - component: {fileID: 339558380}
+  - component: {fileID: 339558381}
   m_Layer: 0
   m_Name: Rami
   m_TagString: Untagged
@@ -973,8 +1021,52 @@ MonoBehaviour:
   level: 0
   sprite: {fileID: 1503319945}
   button: {fileID: 2039905778}
-  onActiveRules: []
+  onActiveRules:
+  - targetId: Sfera
+    targetLevel: 0
+    onPresent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 339558380}
+          m_TargetAssemblyTypeName: RamiRule, Assembly-CSharp
+          m_MethodName: Primo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onAbsent:
+      m_PersistentCalls:
+        m_Calls: []
   onUpdateRules: []
+--- !u!114 &339558380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339558376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51cc2d0ac7d08e24ab441d077902ce82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RamiRule
+--- !u!114 &339558381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339558376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f642ad1225defd04cb1f998a38f3fc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ElementAnimation
 --- !u!1 &369757301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,8 +1199,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1618539947}
   - {fileID: 258404142}
+  - {fileID: 1618539947}
   - {fileID: 1664112908}
   - {fileID: 1794778959}
   - {fileID: 339558377}
@@ -12976,6 +13068,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1618539947}
   - component: {fileID: 1618539949}
+  - component: {fileID: 1618539950}
+  - component: {fileID: 1618539951}
   m_Layer: 0
   m_Name: Semi
   m_TagString: Untagged
@@ -13017,18 +13111,18 @@ MonoBehaviour:
   sprite: {fileID: 43718938}
   button: {fileID: 625621175}
   onActiveRules:
-  - targetId: Buco
+  - targetId: Sfera
     targetLevel: 0
     onPresent:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 0
+        - m_Target: {fileID: 1618539950}
+          m_TargetAssemblyTypeName: SemiRule, Assembly-CSharp
+          m_MethodName: Primo
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -13037,19 +13131,43 @@ MonoBehaviour:
     onAbsent:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 0
+        - m_Target: {fileID: 1757812752}
+          m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+          m_MethodName: RuleNotExecuted
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
   onUpdateRules: []
+--- !u!114 &1618539950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618539946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2c9c353176bd84ebf31e12de35f773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SemiRule
+--- !u!114 &1618539951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618539946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f642ad1225defd04cb1f998a38f3fc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ElementAnimation
 --- !u!1 &1664112907
 GameObject:
   m_ObjectHideFlags: 0
@@ -18049,8 +18167,10 @@ MonoBehaviour:
   - {fileID: 180584837}
   History: []
   isAnimating: 0
-  currentAnimationSeconds: 0
   ruleExecuted: 0
+  doNothing: 0
+  transitioning: 0
+  wait: 0
   ActiveOnStart:
   - {fileID: 1438527316}
   DisableOnStart:
