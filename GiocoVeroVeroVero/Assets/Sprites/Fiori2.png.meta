@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7cfa4510b20e7b840a6e927f81d9d32e
+guid: f5a2ab2fc37e496418722570ece52532
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6034432575631303640
-    second: Rifiuti_0
+      213: 2529051344919590748
+    second: Semi3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rifiuti_0
+      name: Semi3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -121,15 +121,15 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82c53745b83614ca0800000000000000
-      internalID: -6034432575631303640
+      spriteID: c57f7a87ccef81320800000000000000
+      internalID: 2529051344919590748
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0dd217c271ed588448f39ec355d83aa8
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rifiuti_0: -6034432575631303640
+      Semi3_0: 2529051344919590748
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

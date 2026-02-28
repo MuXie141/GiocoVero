@@ -12,4 +12,21 @@ public class BucoRule : MonoBehaviour
     {
         elementAnimation.PlayAnimation("Buco-Primo");
     }
+
+    public void Secondo()
+    {
+        elementAnimation.PlayAnimation("Buco-Secondo");
+    }
+
+    public void Ultimo()
+    {
+        elementAnimation.PlayAnimation("Buco-Ultimo");
+    }
+
+    public void Penultimo()
+    {
+        elementAnimation.PlayAnimation("Buco-Penultimo");
+    }
+
+    
 }

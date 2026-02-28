@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameElement : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class GameElement : MonoBehaviour
     [SerializeField] private GameObject sprite;
     [SerializeField] private GameObject button;
 
-    public InteractionRule[] onActiveRules;
-    public InteractionRule[] onUpdateRules;
+    public List<InteractionRule> onActiveRules;
+    public List<InteractionRule> onUpdateRules;
 
     [Serializable]
     public class InteractionRule
@@ -20,18 +21,29 @@ public class GameElement : MonoBehaviour
         public string targetId; 
         public sbyte targetLevel;
         public UnityEvent onPresent;    
-        public UnityEvent onAbsent;     
+        public UnityEvent onAbsent;    
+        public bool modifyLevel;
+        public Target[] target;
     }
+    [Serializable]
+    public class Target
+    {
+        public string targetId; 
+        public sbyte targetLevel;  
+        public sbyte toLevel;  
+    }
+
+    
 
     public void Activate()
     {
-        if (GameManager.Instance.isAnimating) return;
+        if (GameManager.Instance.isAnimating || GameManager.Instance.dayState == GameManager.DayState.Auto) return;
         GameManager.Instance.isAnimating = true;
         isActive = true;
         sprite.SetActive(!sprite.activeSelf);
+        GameManager.Instance.RegisterElement(this);
         ExecuteRule();
         button.SetActive(false);
-        GameManager.Instance.RegisterElement(this);
     }
 
     private void ExecuteRule()
@@ -46,17 +58,24 @@ public class GameElement : MonoBehaviour
             GameManager.Instance.ruleExecuted = true; //Invoke chiamerà una funzione per falsarlo
             //GameManager.Instance.doNothing = true; // Questo è per dire a TransitionEffect quando può cambiare il variabile wait
             //GameManager.Instance.wait = true;
-            if (GameManager.Instance.IsElementActive(rule.targetId, rule.targetLevel))
+            if (GameManager.Instance.checkHistory(rule.targetId, rule.targetLevel))
             {
-                rule.onPresent.Invoke();
+                if (rule.modifyLevel == true) Modify(rule.target);
+                if (rule.onPresent.GetPersistentEventCount() != 0) rule.onPresent.Invoke(); //Debug.Log("onPresent");
+                
             }
             else
             {
-                rule.onAbsent.Invoke();
+                if (rule.onAbsent.GetPersistentEventCount() != 0) rule.onAbsent.Invoke(); // Debug.Log("onAbsent");
                 
             }
             yield return null;
-            if(GameManager.Instance.ruleExecuted==true)
+
+            while(GameManager.Instance.transitioning || GameManager.Instance.wait)
+            {
+                yield return new WaitForSeconds(1f);
+            }
+            /*if(GameManager.Instance.ruleExecuted==true)
             {
                 //yield return new WaitUntil(() => GameManager.Instance.wait == false);
                 //yield return new WaitForSeconds(GameManager.Instance.currentAnimationSeconds);
@@ -65,29 +84,43 @@ public class GameElement : MonoBehaviour
                 {
                     yield return new WaitForSeconds(1f);
                 }
-            }
+            }*/
         }
-
-        GameManager.Instance.UpdateRules();
+        StartCoroutine(GameManager.Instance.UpdateRules());
     }
 
     
 
-    public void ExecuteUpdateRule()
+    public IEnumerator ExecuteUpdateRule()
     {
-        foreach (var rule in onUpdateRules)
+
+        for (int i = onUpdateRules.Count - 1; i >= 0; i--)
         {
-           
-            if (GameManager.Instance.IsElementActive(rule.targetId, rule.targetLevel))
+            InteractionRule rule = onUpdateRules[i];
+            if (GameManager.Instance.checkHistory(rule.targetId, rule.targetLevel))
             {
-                rule.onPresent.Invoke();
+                if (rule.modifyLevel == true) Modify(rule.target);
+                if (rule.onPresent.GetPersistentEventCount() != 0) {rule.onPresent.Invoke(); onUpdateRules.Remove(rule);}  // Debug.Log("onPresent");
             }
             else
             {
-                rule.onAbsent.Invoke();
+                if (rule.onAbsent.GetPersistentEventCount() != 0) {rule.onAbsent.Invoke(); onUpdateRules.Remove(rule);}  // Debug.Log("onAbsent");
+            }
+
+            yield return null;
+
+            while(GameManager.Instance.transitioning || GameManager.Instance.wait)
+            {
+                yield return new WaitForSeconds(1f);
             }
         }
-        GameManager.Instance.isAnimating = false;
+    }
 
+    private void Modify(Target[] target)
+    {
+        for (int i = 0; i < target.Length; i++)
+        {
+            GameManager.Instance.ModifyTargetLevel(target[i].targetId, target[i].targetLevel, target[i].toLevel);
+        }
     }
 }

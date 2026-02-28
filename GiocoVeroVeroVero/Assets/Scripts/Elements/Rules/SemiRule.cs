@@ -12,6 +12,21 @@ public class SemiRule : MonoBehaviour
         elementAnimation.PlayAnimation("Semi-Primo");
     }
 
+    public void Secondo()
+    {
+        elementAnimation.PlayAnimation("Fiori-Primo");
+    }
+
+    public void Terzo()
+    {
+        elementAnimation.PlayAnimation("Fiori-Secondo");
+    }
+
+    public void Quarto()
+    {
+        elementAnimation.PlayAnimation("Fiori-Terzo");
+    }
+
     public void First()
     {
         elementAnimation.PlayAnimation("Semi-First");

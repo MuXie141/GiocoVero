@@ -15,7 +15,6 @@ public class ElementAnimation : MonoBehaviour
     {
         GameManager.Instance.wait = true;
         animator.Play(animation);
-        Debug.Log("Animazione eseguita!");
         //GameManager.Instance.currentAnimationSeconds = GetCurrentAnimatorStateInfo(0).length;
         StartCoroutine(WaitForAnim(animation));
     }
