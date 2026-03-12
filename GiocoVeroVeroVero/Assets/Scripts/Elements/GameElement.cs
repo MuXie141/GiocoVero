@@ -22,8 +22,13 @@ public class GameElement : MonoBehaviour
         public sbyte targetLevel;
         public UnityEvent onPresent;    
         public UnityEvent onAbsent;    
+        [Header("Present")]
         public bool modifyLevel;
         public Target[] target;
+        [Header("Absent")]
+        public bool modifyLvl;
+        public Target[] trget;
+
     }
     [Serializable]
     public class Target
@@ -40,7 +45,7 @@ public class GameElement : MonoBehaviour
         if (GameManager.Instance.isAnimating || GameManager.Instance.dayState == GameManager.DayState.Auto) return;
         GameManager.Instance.isAnimating = true;
         isActive = true;
-        sprite.SetActive(!sprite.activeSelf);
+        sprite.SetActive(true);
         GameManager.Instance.RegisterElement(this);
         ExecuteRule();
         button.SetActive(false);
@@ -66,6 +71,7 @@ public class GameElement : MonoBehaviour
             }
             else
             {
+                if (rule.modifyLvl == true) Modify(rule.trget);
                 if (rule.onAbsent.GetPersistentEventCount() != 0) rule.onAbsent.Invoke(); // Debug.Log("onAbsent");
                 
             }
@@ -104,6 +110,7 @@ public class GameElement : MonoBehaviour
             }
             else
             {
+                if (rule.modifyLvl == true) Modify(rule.trget);
                 if (rule.onAbsent.GetPersistentEventCount() != 0) {rule.onAbsent.Invoke(); onUpdateRules.Remove(rule);}  // Debug.Log("onAbsent");
             }
 

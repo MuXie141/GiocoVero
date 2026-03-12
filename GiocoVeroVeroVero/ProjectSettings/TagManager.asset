@@ -44,5 +44,8 @@ TagManager:
   - name: GameObject
     uniqueID: 3725931425
     locked: 0
+  - name: MiniGames
+    uniqueID: 3689727841
+    locked: 0
   m_RenderingLayers:
   - Default
