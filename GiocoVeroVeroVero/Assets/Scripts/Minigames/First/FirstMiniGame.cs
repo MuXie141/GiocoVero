@@ -109,6 +109,7 @@ public class FirstMiniGame : MonoBehaviour
     [SerializeField] private string[] positiveMessages;
     void OnEnable()
     {
+        ResultsMenu.SetActive(false);
         currentWastesNumber= 0;
         correct= 0;
         misses = 0;

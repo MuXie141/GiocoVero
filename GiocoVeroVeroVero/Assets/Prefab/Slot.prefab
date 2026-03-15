@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5406782793728695826}
   - component: {fileID: 4205955714657673309}
   - component: {fileID: 3762271087479707908}
+  - component: {fileID: 3225380427359767363}
   m_Layer: 0
   m_Name: Slot
   m_TagString: Untagged
@@ -88,5 +89,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0de5ba1cd6c204d92160a9024efa5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SecondMiniGameDropZone
+  droppedObject: {fileID: 0}
   manager: {fileID: 0}
   index: 0
+--- !u!95 &3225380427359767363
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6823478226258222395}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d30c450f2c35eb741ace7c8982f1a922, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
