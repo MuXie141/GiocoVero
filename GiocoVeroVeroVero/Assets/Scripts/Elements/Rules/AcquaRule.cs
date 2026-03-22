@@ -26,4 +26,13 @@ public class AcquaRule : MonoBehaviour
     {
         elementAnimation.PlayAnimation("Acqua-Terzo");
     }
+
+    public void Ultimo()
+    {
+        elementAnimation.PlayAnimation("Acqua-Ultimo");
+    }
+    public void Penultimo()
+    {
+        elementAnimation.PlayAnimation("Acqua-Penultimo");
+    }
 }

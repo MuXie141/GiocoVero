@@ -6803,3 +6803,80 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 2.2666667
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: a6aafc17a6c8ad54d98ff56b1b407ae7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3.1833334
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 93926f300d7f0b148b7f965ac2bc48c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 4.5833335
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: a6aafc17a6c8ad54d98ff56b1b407ae7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 6.016667
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 93926f300d7f0b148b7f965ac2bc48c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 7.5333333
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: a6aafc17a6c8ad54d98ff56b1b407ae7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 8.666667
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 93926f300d7f0b148b7f965ac2bc48c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 9.7
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: a6aafc17a6c8ad54d98ff56b1b407ae7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 10.866667
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 93926f300d7f0b148b7f965ac2bc48c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 12.333333
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: a6aafc17a6c8ad54d98ff56b1b407ae7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 13.5
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 93926f300d7f0b148b7f965ac2bc48c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 16.3
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 80c84b9f6b1f06045aa11ad291c396f2, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

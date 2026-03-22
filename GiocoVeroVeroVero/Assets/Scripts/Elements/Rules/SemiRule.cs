@@ -31,4 +31,14 @@ public class SemiRule : MonoBehaviour
     {
         elementAnimation.PlayAnimation("Semi-First");
     }
+
+    public void Uccello1()
+    {
+        elementAnimation.PlayAnimation("Semi-Secondo");
+    }
+
+    public void Uccello2()
+    {
+        elementAnimation.PlayAnimation("Semi-Secondo2");
+    }
 }

@@ -22,6 +22,8 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -5959616502528751482, guid: d16ea29ea012b0e4989c92c6b2111afd, type: 3}
+    - time: 1.5166667
+      value: {fileID: -5959616502528751482, guid: d16ea29ea012b0e4989c92c6b2111afd, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -45,12 +47,13 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
     - {fileID: -5959616502528751482, guid: d16ea29ea012b0e4989c92c6b2111afd, type: 3}
+    - {fileID: -5959616502528751482, guid: d16ea29ea012b0e4989c92c6b2111afd, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 1.5333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -74,6 +77,13 @@ AnimationClip:
     functionName: Change
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 2a275bc7d46c033458538d7d55638367, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

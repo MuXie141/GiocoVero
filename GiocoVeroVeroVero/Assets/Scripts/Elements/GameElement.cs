@@ -42,9 +42,10 @@ public class GameElement : MonoBehaviour
 
     public void Activate()
     {
-        if (GameManager.Instance.isAnimating || GameManager.Instance.dayState == GameManager.DayState.Auto) return;
+        if (GameManager.Instance.isAnimating || GameManager.Instance.dayState == GameManager.DayState.Auto|| GameManager.Instance.dayState == GameManager.DayState.Transitioning) return;
         GameManager.Instance.isAnimating = true;
         isActive = true;
+        SoundFXManager.Instance.Tap();
         sprite.SetActive(true);
         GameManager.Instance.RegisterElement(this);
         ExecuteRule();

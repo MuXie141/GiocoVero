@@ -2756,6 +2756,13 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 1.65
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 8fd2a81c4832b504d963dcfbfdc20444, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 1.6666666
     functionName: Shake
     data: 
@@ -2770,6 +2777,20 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 2.2333333
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 70d3e361fd2b0e143b5729868cb7805d, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.4833333
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 845227c6ca6663548941bde8a4f1a8ef, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 3.0333333
     functionName: Shake
     data: 
@@ -2777,10 +2798,31 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 3.0333333
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 8fd2a81c4832b504d963dcfbfdc20444, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 3.1833334
     functionName: Play
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3.7
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 70d3e361fd2b0e143b5729868cb7805d, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 4.65
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 8fd2a81c4832b504d963dcfbfdc20444, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
@@ -2795,6 +2837,13 @@ AnimationClip:
     functionName: Play
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.4
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 845227c6ca6663548941bde8a4f1a8ef, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

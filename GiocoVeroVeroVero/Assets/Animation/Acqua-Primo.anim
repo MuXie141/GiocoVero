@@ -523,4 +523,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.28333333
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 783111deb7fff7c40a5a015997ef5c1e, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

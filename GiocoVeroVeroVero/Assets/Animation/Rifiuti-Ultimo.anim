@@ -5514,3 +5514,59 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 2.1166666
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: a6aafc17a6c8ad54d98ff56b1b407ae7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 4.133333
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 93926f300d7f0b148b7f965ac2bc48c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.233333
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: a6aafc17a6c8ad54d98ff56b1b407ae7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 6.75
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 93926f300d7f0b148b7f965ac2bc48c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 7.7166667
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: a6aafc17a6c8ad54d98ff56b1b407ae7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 8.85
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 93926f300d7f0b148b7f965ac2bc48c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 10.216666
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: a6aafc17a6c8ad54d98ff56b1b407ae7, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 11.8
+    functionName: PlayClip
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 93926f300d7f0b148b7f965ac2bc48c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

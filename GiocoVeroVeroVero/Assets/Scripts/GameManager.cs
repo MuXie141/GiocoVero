@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance; 
     
-    [SerializeField] private GameElement[] allElements;
+    public GameElement[] allElements;
     public List<GameElement> History = new List<GameElement>();
 
     public bool isAnimating = false;
@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     [Header("Impostazione Scena")]
     public List<GameObject> ActiveOnStart;
     public List<GameObject> DisableOnStart;
+
     
 
     void Awake()
@@ -36,41 +37,64 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         SetUp();
-        currentDay = 1;
-        StartDay();
+        currentDay = 0;
     }   
 
     private void StartDay()
     {
-        if (currentDay != 5 && currentDay != 8)
+        if (currentDay > 9)
+        {
+            GameOver();
+            return;
+        }
+        else if (currentDay != 6 && currentDay != 8)
         {
             PlayerTurn();
         }
         else
         {
-            Auto();
+            StartCoroutine(RunAutoDay());
         }
     }
+
+
 
     private void PlayerTurn()
     {
         dayState = DayState.Normal;
+
         
     }
 
-    private void Auto()
+    private IEnumerator RunAutoDay()
     {
         dayState = DayState.Auto;
+        isAnimating = true;
 
-        StartCoroutine(Instance.UpdateRules());
+        yield return new WaitForSeconds(autoTurnDelay);
+        yield return StartCoroutine(UpdateRules());
+        yield return new WaitUntil(() => !isAnimating);
+        yield return StartCoroutine(TransitionToNextDay());
     }
+    
+
 
     public IEnumerator TransitionToNextDay()
     {
         dayState = DayState.Transitioning;
-        yield return null;
+
+        yield return StartCoroutine(DayUI.Instance.Advance(currentDay));
+        yield return null;      
+
 
         currentDay++;
+        StartDay();           
+    }
+
+     private void GameOver()
+    {
+        dayState = DayState.Transitioning;
+        // Show result 
     }
 
 
@@ -118,14 +142,18 @@ public class GameManager : MonoBehaviour
         History.Add(newElement);
     }
 
+    int lastLastIndx = 0;
     public IEnumerator UpdateRules()
     {
         if(History==null)yield break;
-        for (int i = 0; i < History.Count-1; i++) //slata l'ultimo elemento aggiunto 
+        int num1 = (lastLastIndx == History.Count)? History.Count:History.Count-1;
+        for (int i = 0; i < num1; i++) //salata l'ultimo elemento aggiunto 
         {
             yield return StartCoroutine(History[i].ExecuteUpdateRule());
         }
+        lastLastIndx = History.Count;
         Instance.isAnimating = false;
+        if(dayState!=DayState.Auto)StartCoroutine(TransitionToNextDay());
     }
 
     public void SwapElements(string element1, string element2)
@@ -162,7 +190,17 @@ public class GameManager : MonoBehaviour
             if (History[i].id == targetId && History[i].level == targetLevel)
             {
                 History[i].level = level;
-                Debug.Log(level+ " "+ History[i].level);
+            }
+        }
+    }
+
+    public void ModifyTargetLevel2(string targetId, sbyte level)
+    {
+        for (int i = 0; i < History.Count; i++)
+        {
+            if (History[i].id == targetId )
+            {
+                History[i].level = level;
             }
         }
     }
@@ -175,7 +213,9 @@ public class GameManager : MonoBehaviour
     {
         ruleExecuted = false;
     }*/
-
+    [Header("Turn Settings")]
+    [SerializeField] private float autoTurnDelay = 2f;    
+    [SerializeField] private float animationPollInterval = 0.1f;
 
 
     

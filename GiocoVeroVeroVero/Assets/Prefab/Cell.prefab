@@ -91,4 +91,9 @@ MonoBehaviour:
   fuelValue: 100
   currentHeat: 0
   currentState: 2
+  plantType: 0
   heatStartBurning: 50
+  heatOutput: 0
+  x: 0
+  y: 0
+  isPlayerFire: 0

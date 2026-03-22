@@ -19,22 +19,27 @@ public class ElementAnimation : MonoBehaviour
         StartCoroutine(WaitForAnim(animation));
     }
 
-    IEnumerator WaitForAnim(string stateName) 
+    IEnumerator WaitForAnim(string stateName)
     {
- 
-        yield return null; // Perchè potrebbe catturare animazione precedente
+        yield return null; 
+
+
+        while (!animator.GetCurrentAnimatorStateInfo(0).IsName(stateName))
+        {
+            yield return null;
+        }
+            
+
 
         AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
-
-        while (info.IsName(stateName) && info.normalizedTime < 0.98f) {
+        while (info.IsName(stateName) && info.normalizedTime < 0.98f)
+        {
             info = animator.GetCurrentAnimatorStateInfo(0);
             yield return null;
         }
 
-        Debug.Log("Animazione completata con successo");
+        Debug.Log("Animazione completata: " + stateName);
         GameManager.Instance.wait = false;
-
-
     }
     
 
