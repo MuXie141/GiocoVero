@@ -1,254 +1,273 @@
 Nome Oggetto,Sbaglio Comune,Posto Giusto,Nota Semplice
-Matite,ALTRO,SECCO,È legno e grafite
-Radiografie,ALTRO,SECCO,È pellicola
-Mutande rovinate,ALTRO,SECCO,È tessuto
-Jeans rovinati,ALTRO,SECCO,È tessuto
-Peluche,ALTRO,SECCO,È tessuto
-Piumoni,ALTRO,SECCO,È tessuto
-Sacchi tessuto,ALTRO,SECCO,È tessuto
-Tende casa,ALTRO,SECCO,È tessuto
-Stracci,ALTRO,SECCO,È tessuto
-Vestiti rovinati,ALTRO,SECCO,È tessuto
-Zaini rovinati,ALTRO,SECCO,È tessuto
-Scarpe vecchie,ALTRO,SECCO,È tessuto e gomma
-Fotografie,CARTA,SECCO,È carta speciale
-Scontrini,CARTA,SECCO,È carta termica
-Fiocchi regalo,CARTA,SECCO,È plastica lucida o stoffa
-Adesivi,CARTA,SECCO,Ha la colla
-Nastro adesivo,CARTA,SECCO,Ha la colla
-Carta fotografica,CARTA,SECCO,Ha uno strato lucido
-Carta da forno,CARTA,SECCO,Non è carta comune
-Cartoni pizza sporchi,CARTA,SECCO,Non va nella carta
-Bende e cerotti,CARTA,SECCO,Sono sporchi
-Carta vetrata,CARTA,SECCO,Va nel secco
-Carta assorbente sporca,CARTA,UMIDO,È carta bagnata
-"Fazzoletti carta usati (cibo, raffreddore)",CARTA,UMIDO,È carta sporca
-Tovaglia carta sporca,CARTA,UMIDO,Ha resti di cibo
-Tovaglioli di carta sporchi,CARTA,UMIDO,Ha resti di cibo
-Secchi plastica,PLASTICA,ALTRO,È plastica grossa
-Pelapatate,PLASTICA,ALTRO,Non è un imballaggio
-Pacchetto sigarette,PLASTICA,CARTA,Senza il film fuori
-Tetrapak latte,PLASTICA,CARTA,Va nella carta
-Tetrapak succhi,PLASTICA,CARTA,Va nella carta
-Tetrapak vino,PLASTICA,CARTA,Va nella carta
-Tetrapak panna,PLASTICA,CARTA,Va nella carta
-Capsule caffè piene,PLASTICA,SECCO,Contiene fondi
-Smalto unghie,PLASTICA,SECCO,È chimico
-Guanti cucina,PLASTICA,SECCO,È gomma
-Siringhe con ago protetto,PLASTICA,SECCO,È scarto sanitario
-Calze nylon,PLASTICA,SECCO,È una fibra sintetica
-Mascherine,PLASTICA,SECCO,Non è riciclabile
-Giocattoli piccoli,PLASTICA,SECCO,Non è un imballaggio
-DVD,PLASTICA,SECCO,Non è un imballaggio
-Evidenziatori,PLASTICA,SECCO,Non è un imballaggio
-Bottoni,PLASTICA,SECCO,Non è un imballaggio
-Ciotole plastica,PLASTICA,SECCO,Non è un imballaggio
-Pennarelli,PLASTICA,SECCO,Non è un imballaggio
-Floppy disk,PLASTICA,SECCO,Non è un imballaggio
-Posate plastica,PLASTICA,SECCO,Non è un imballaggio
-Ombrelli,PLASTICA,SECCO,Non è un imballaggio
-Penne biro,PLASTICA,SECCO,Non è un imballaggio
-Pettini,PLASTICA,SECCO,Non è un imballaggio
-Portapenne,PLASTICA,SECCO,Non è un imballaggio
-Schede telefoniche,PLASTICA,SECCO,Non è un imballaggio
-Sottovasi plastica,PLASTICA,SECCO,Non è un imballaggio
-Spazzolini,PLASTICA,SECCO,Non è un imballaggio
-Tagliere plastica,PLASTICA,SECCO,Non è un imballaggio
-Tubi plastica,PLASTICA,SECCO,Non è un imballaggio
-Pettine rotto,PLASTICA,SECCO,Non è un imballaggio
-Tappi silicone,PLASTICA,SECCO,Non si ricicla
-Accendini,PLASTICA,SECCO,Va nel secco
-Palle tennis,PLASTICA,SECCO,Va nel secco
-Sacchetti freezer,PLASTICA,SECCO,Va nel secco
-Posate compostabili,PLASTICA,UMIDO,Si scioglie
-Piatti bioplastica,PLASTICA,UMIDO,Si scioglie
-Vernici,SECCO,ALTRO,È chimica
-Macchina fotografica,SECCO,ALTRO,È elettronica
-Mouse,SECCO,ALTRO,È elettronica
-Cellulari,SECCO,ALTRO,È elettronica
-Chiavette USB,SECCO,ALTRO,È elettronica
-Computer,SECCO,ALTRO,È elettronica
-Hard-disk,SECCO,ALTRO,È elettronica
-Joystick,SECCO,ALTRO,È elettronica
-Navigatore GPS,SECCO,ALTRO,È elettronica
-Radio,SECCO,ALTRO,È elettronica
-Schermi LED,SECCO,ALTRO,È elettronica
-Stampanti,SECCO,ALTRO,È elettronica
-Telecomandi,SECCO,ALTRO,È elettronica
-Televisori,SECCO,ALTRO,È elettronica
-Torce,SECCO,ALTRO,È elettronica
-Videoregistratori,SECCO,ALTRO,È elettronica
-Webcam,SECCO,ALTRO,È elettronica
-Pneumatici,SECCO,ALTRO,È gomma speciale
-Frigoriferi,SECCO,ALTRO,È ingombrante
-Materassi,SECCO,ALTRO,È ingombrante
-Biciclette,SECCO,ALTRO,È ingombrante
-Condizionatori,SECCO,ALTRO,È ingombrante
-Congelatori,SECCO,ALTRO,È ingombrante
-Lavastoviglie,SECCO,ALTRO,È ingombrante
-Lavatrice,SECCO,ALTRO,È ingombrante
-Finestre,SECCO,ALTRO,È ingombrante
-Ombrelloni,SECCO,ALTRO,È ingombrante
-Poltrone,SECCO,ALTRO,È ingombrante
-Sci,SECCO,ALTRO,È ingombrante
-Sdraio,SECCO,ALTRO,È ingombrante
-Sedie,SECCO,ALTRO,È ingombrante
-Tavoli,SECCO,ALTRO,È ingombrante
-Valigie,SECCO,ALTRO,È ingombrante
-Vasca bagno,SECCO,ALTRO,È ingombrante
-Mensole,SECCO,ALTRO,È legno o metallo
-Grattugie,SECCO,ALTRO,È metallo
-Pentole,SECCO,ALTRO,È metallo
-Rubinetti,SECCO,ALTRO,È metallo
-Termosifoni,SECCO,ALTRO,È metallo
-Tubi metallo,SECCO,ALTRO,È metallo
-Portachiavi,SECCO,ALTRO,È metallo o plastica
-Graffette,SECCO,ALTRO,"È metallo, meglio riciclare"
-Chiodi e viti,SECCO,ALTRO,"È metallo, meglio riciclare"
-Divani,SECCO,ALTRO,È molto grande
-Foglie secche,SECCO,ALTRO,È naturale
-Piante senza vaso,SECCO,ALTRO,È naturale
-Batterie auto,SECCO,ALTRO,È pericolosa
-Olio motori,SECCO,ALTRO,È pericoloso
-Piastrelle,SECCO,ALTRO,È scarto edile
-Terra,SECCO,ALTRO,È scarto naturale
-Erba,SECCO,ALTRO,È scarto verde
-Ramaglie,SECCO,ALTRO,È scarto verde
-Estintori,SECCO,ALTRO,È speciale
-Lampade risparmio,SECCO,ALTRO,È speciale
-Neon,SECCO,ALTRO,È speciale
-Orologi,SECCO,ALTRO,È speciale
-Pannelli solari,SECCO,ALTRO,È speciale
-Termometri,SECCO,ALTRO,È speciale
-Lampadari,SECCO,ALTRO,È un arredo
-Quadri,SECCO,ALTRO,È un arredo
-Bombole gas,SECCO,ALTRO,È un contenitore speciale
-Aspirapolvere,SECCO,ALTRO,È un elettrodomestico
-Frullatore,SECCO,ALTRO,È un elettrodomestico
-Comodini,SECCO,ALTRO,È un mobile
-Auricolari,SECCO,ALTRO,È un piccolo elettronico
-Pile esaurite,SECCO,ALTRO,È una batteria
-Batterie stilo,SECCO,ALTRO,È una pila
-Monitor,SECCO,ALTRO,È uno schermo
-Chiavi serratura,SECCO,ALTRO,Meglio riciclare metallo
-Appendiabiti legno,SECCO,ALTRO,Non va nel secco
-Appendiabiti metallo,SECCO,ALTRO,Non va nel secco
-Medicinali scaduti,SECCO,ALTRO,Non va nel secco
-Bombolette spray,SECCO,ALTRO,Può essere pericolosa
-Posate metallo,SECCO,ALTRO,Recuperare il metallo
-Jeans buoni,SECCO,ALTRO,Nel contenitore abiti usati
-Cappelli buoni,SECCO,ALTRO,Nel contenitore abiti usati
-Giacche buone,SECCO,ALTRO,Nel contenitore abiti usati
-Maglioni buoni,SECCO,ALTRO,Nel contenitore abiti usati
-Sciarpe buone,SECCO,ALTRO,Nel contenitore abiti usati
-Carta da fotocopie,SECCO,CARTA,È carta
-Giornali,SECCO,CARTA,È carta
-Riviste,SECCO,CARTA,È carta
-Libri,SECCO,CARTA,È carta
-Gratta e vinci,SECCO,CARTA,È carta
-Buste carta pulite,SECCO,CARTA,È carta buona
-Sacchetti carta,SECCO,CARTA,È carta buona
-Tovaglia carta pulita,SECCO,CARTA,È carta buona
-Quaderno matematica,SECCO,CARTA,È carta buona
-Quaderno inglese,SECCO,CARTA,È carta buona
-Quaderno storia,SECCO,CARTA,È carta buona
-Quaderno italiano,SECCO,CARTA,È carta buona
-Rotolo carta igienica,SECCO,CARTA,È cartoncino buono
-Scatola di cereali,SECCO,CARTA,È cartoncino pulito
-Cartoni pizza puliti,SECCO,CARTA,È cartone buono
-Scatole cartone,SECCO,CARTA,È cartone buono
-Vaschette alluminio,SECCO,PLASTICA,È metallo leggero
-Lattine bibite,SECCO,PLASTICA,È metallo leggero
-Capsule caffè vuote,SECCO,PLASTICA,È plastica
-Tappi plastica,SECCO,PLASTICA,È plastica
-Nylon imballaggio,SECCO,PLASTICA,È plastica
-Retine frutta,SECCO,PLASTICA,È plastica
-Sacchetti plastica,SECCO,PLASTICA,È plastica
-Vasetti yogurt,SECCO,PLASTICA,È plastica
-Tubetto dentifricio,SECCO,PLASTICA,È un contenitore
-Flaconi detersivo,SECCO,PLASTICA,È un contenitore
-Bicchierini caffè plastica,SECCO,PLASTICA,È un contenitore
-Barattoli plastica,SECCO,PLASTICA,È un imballaggio
-Cassette frutta plastica,SECCO,PLASTICA,È un imballaggio
-Bottiglie plastica,SECCO,PLASTICA,È un imballaggio
-Buste plastica,SECCO,PLASTICA,È un imballaggio
-Busta caffè,SECCO,PLASTICA,È un imballaggio
-Cellophane,SECCO,PLASTICA,È un imballaggio
-Vassoio plastica cibo,SECCO,PLASTICA,È un imballaggio
-Contenitori metallo cibo,SECCO,PLASTICA,È un imballaggio
-Imballaggio uovo Pasqua,SECCO,PLASTICA,È un imballaggio
-Pellicola alluminio,SECCO,PLASTICA,È un imballaggio
-Polistirolo vaschetta,SECCO,PLASTICA,È un imballaggio
-Lattina Coca Cola,SECCO,PLASTICA,È un imballaggio in metallo
-Lattina Fanta,SECCO,PLASTICA,È un imballaggio in metallo
-Lattina Sprite,SECCO,PLASTICA,È un imballaggio in metallo
-Lattine acciaio,SECCO,PLASTICA,Non va nel secco
-Bicchieri plastica monouso,SECCO,PLASTICA,Si possono riciclare
-Appendiabiti plastica,SECCO,PLASTICA,Si può riciclare
-Piatti plastica monouso,SECCO,PLASTICA,Si riciclano
-Stuzzicadenti,SECCO,UMIDO,È legno
-Bastoncino gelato,SECCO,UMIDO,È legno naturale
-Segatura pulita,SECCO,UMIDO,È legno naturale
-Bustina di tè,SECCO,UMIDO,È materiale naturale
-Gusci uova,SECCO,UMIDO,È naturale
-Insetti morti,SECCO,UMIDO,È naturale
-Fiori,SECCO,UMIDO,È naturale
-Noce cocco,SECCO,UMIDO,È naturale
-Ossi carne,SECCO,UMIDO,È naturale
-Verdura,SECCO,UMIDO,È naturale
-Ceneri legno,SECCO,UMIDO,È scarto bruciato
-Escrementi animali,SECCO,UMIDO,È scarto naturale
-Capelli e peli,SECCO,UMIDO,È scarto naturale
-Conchiglie,SECCO,UMIDO,È scarto naturale
-Lische pesce,SECCO,UMIDO,È un avanzo
-Pezzo di pizza avanzato,SECCO,UMIDO,È un avanzo alimentare
-Mela,SECCO,UMIDO,È un avanzo naturale
-Buccia di banana,SECCO,UMIDO,È un avanzo naturale
-Pera,SECCO,UMIDO,È un avanzo naturale
-Nocciolo di pesca,SECCO,UMIDO,È un avanzo naturale
-Gusci di arachidi,SECCO,UMIDO,È un avanzo naturale
-Crosta di formaggio,SECCO,UMIDO,È un avanzo naturale
-Foglia di lattuga,SECCO,UMIDO,È un avanzo naturale
-Semi di girasole,SECCO,UMIDO,È un avanzo naturale
-Avanzi di cibo,SECCO,UMIDO,È un resto naturale
-Alimenti avariati,SECCO,UMIDO,Va nell'umido
-Fondi caffè,SECCO,UMIDO,Va nell'umido
-Pane,SECCO,UMIDO,Va nell'umido
-Pasta cruda,SECCO,UMIDO,Va nell'umido
-Bottiglie acqua vetro,SECCO,VETRO,È un imballaggio
-Bottiglie vino vetro,SECCO,VETRO,È un imballaggio
-Bottiglie bibita vetro,SECCO,VETRO,È un imballaggio
-Bottiglie olio vetro,SECCO,VETRO,È un imballaggio
-Tagliere legno,UMIDO,ALTRO,È legno grosso
-Sasso da giardino,UMIDO,ALTRO,È naturale
-Corde,UMIDO,SECCO,È fibra o plastica
-Panni polvere,UMIDO,SECCO,È fibra sintetica
-Elastici,UMIDO,SECCO,È gomma
-Spugne sintetiche,UMIDO,SECCO,È plastica
-Fiori finti,UMIDO,SECCO,È plastica e stoffa
-Gessetti,UMIDO,SECCO,È polvere pressata
-Polvere aspirapolvere,UMIDO,SECCO,È sporco misto
-Borse pelle,UMIDO,SECCO,È un accessorio
-Cappelli rovinati,UMIDO,SECCO,È un tessuto
-Coperte rovinate,UMIDO,SECCO,È un tessuto
-Cuscino rovinato,UMIDO,SECCO,È un tessuto
-Lenzuola rovinata,UMIDO,SECCO,È un tessuto
-Calzini rovinati,UMIDO,SECCO,È un tessuto
-Camicia rovinata,UMIDO,SECCO,È un tessuto
-Pannolini,UMIDO,SECCO,Non è naturale
-Assorbenti,UMIDO,SECCO,Non si scioglie
-Cotton fioc plastica,UMIDO,SECCO,Non si scioglie
-Mozziconi,UMIDO,SECCO,Non vanno nell'umido
-Guanti pelle,UMIDO,SECCO,Va nel secco
-Candele cera,UMIDO,SECCO,Va nel secco
-Cinture pelle,UMIDO,SECCO,Va nel secco
-Segatura sporca,UMIDO,SECCO,Va nel secco
-Specchi,VETRO,ALTRO,È vetro trattato
-Piatti ceramica,VETRO,SECCO,È ceramica
-Bicchieri vetro,VETRO,SECCO,È vetro di cristallo
-Lenti occhiali,VETRO,SECCO,È vetro speciale
-Lampadine incandescenza,VETRO,SECCO,Non è vetro buono
-Occhiali rotti,VETRO,SECCO,Non va nel vetro
-Tazze ceramica,VETRO,SECCO,Non va nel vetro
-Ciotole terracotta,VETRO,SECCO,Va nel secco
-Porcellana,VETRO,SECCO,Va nel secco
+Matite,ALTRO,SECCO,Legno e grafite: Secco
+Radiografie,ALTRO,SECCO,Pellicola non riciclabile: Secco
+Mutande rovinate,ALTRO,SECCO,Tessuto rovinato: Secco
+Jeans rovinati,ALTRO,SECCO,Tessuto rovinato: Secco
+Peluche,ALTRO,SECCO,Tessuto e imbottitura: Secco
+Piumoni,ALTRO,SECCO,Ingombrante tessile: Secco
+Sacchi tessuto,ALTRO,SECCO,Tessuto: Secco
+Tende casa,ALTRO,SECCO,Tessuto: Secco
+Stracci,ALTRO,SECCO,Tessuto sporco: Secco
+Vestiti rovinati,ALTRO,SECCO,Tessuto rovinato: Secco
+Zaini rovinati,ALTRO,SECCO,Materiali misti: Secco
+Scarpe vecchie,ALTRO,SECCO,Gomma e tessuto: Secco
+Fotografie,CARTA,SECCO,Carta fotografica: Secco
+Scontrini,CARTA,SECCO,Carta termica: Secco
+Fiocchi regalo,CARTA,SECCO,Plastica lucida o stoffa: Secco
+Adesivi,CARTA,SECCO,Presenza di colle: Secco
+Nastro adesivo,CARTA,SECCO,Plastica e colla: Secco
+Carta fotografica,CARTA,SECCO,Strato plastificato: Secco
+Carta da forno,CARTA,SECCO,Carta antiaderente: Secco
+Cartoni pizza sporchi,CARTA,SECCO,Residui di cibo e unto: Secco
+Bende e cerotti,CARTA,SECCO,Rifiuto sanitario sporco: Secco
+Carta vetrata,CARTA,SECCO,Abrasivi e colla: Secco
+Carta assorbente sporca (cibo-raffreddore),CARTA,UMIDO,Carta bagnata e organica: Umido
+Fazzoletti carta usati (cibo-raffreddore),CARTA,UMIDO,Cellulosa sporca: Umido
+Carta assorbente pulita,UMIDO,CARTA,Cellulosa riciclabile: Carta
+Carta sporca di detergenti,CARTA,SECCO,Prodotti chimici: Secco
+Tovaglia carta sporca,CARTA,UMIDO,Residui organici: Umido
+Tovaglioli di carta sporchi,CARTA,UMIDO,Residui organici: Umido
+Secchi plastica,PLASTICA,ALTRO,Plastica rigida: Isola ecologica
+Pelapatate,PLASTICA,ALTRO,Metallo e plastica: Isola ecologica
+Pacchetto sigarette,PLASTICA,CARTA,Cartoncino pulito: Carta
+Tetrapak latte,PLASTICA,CARTA,Cartone poliaccoppiato: Carta
+Tetrapak succhi,PLASTICA,CARTA,Cartone poliaccoppiato: Carta
+Tetrapak vino,PLASTICA,CARTA,Cartone poliaccoppiato: Carta
+Tetrapak panna,PLASTICA,CARTA,Cartone poliaccoppiato: Carta
+Capsule caffè piene,PLASTICA,SECCO,Contiene organico: Secco
+Smalto unghie,PLASTICA,SECCO,Rifiuto chimico: Secco
+Guanti cucina,PLASTICA,SECCO,Gomma sintetica: Secco
+Siringhe con ago protetto,PLASTICA,SECCO,Rifiuto sanitario: Secco
+Calze nylon,PLASTICA,SECCO,Fibra sintetica: Secco
+Mascherine,PLASTICA,SECCO,Materiale non riciclabile: Secco
+Giocattoli piccoli,PLASTICA,SECCO,Plastica non da imballaggio: Secco
+DVD,PLASTICA,SECCO,Supporto magnetico: Secco
+Evidenziatori,PLASTICA,SECCO,Plastica e inchiostro: Secco
+Bottoni,PLASTICA,SECCO,Piccoli oggetti plastica: Secco
+Ciotole plastica,PLASTICA,SECCO,Plastica rigida: Secco
+Pennarelli,PLASTICA,SECCO,Inchiostri e plastica: Secco
+Floppy disk,PLASTICA,SECCO,Materiali misti: Secco
+Posate plastica,PLASTICA,SECCO,Plastica non riciclabile: Secco
+Ombrelli,PLASTICA,SECCO,Metallo e tessuto: Secco
+Penne biro,PLASTICA,SECCO,Plastica e inchiostro: Secco
+Pettini,PLASTICA,SECCO,Plastica rigida: Secco
+Portapenne,PLASTICA,SECCO,Oggetto in plastica: Secco
+Schede telefoniche,PLASTICA,SECCO,Plastica rigida: Secco
+Sottovasi plastica,PLASTICA,SECCO,Plastica non da imballaggio: Secco
+Spazzolini,PLASTICA,SECCO,Gomma e setole: Secco
+Tagliere plastica,PLASTICA,SECCO,Plastica rigida: Secco
+Tubi plastica,PLASTICA,SECCO,Materiale edile: Secco
+Pettine rotto,PLASTICA,SECCO,Plastica rigida: Secco
+Tappi silicone,PLASTICA,SECCO,Silicone non riciclabile: Secco
+Accendini,PLASTICA,SECCO,Plastica e metallo: Secco
+Palle tennis,PLASTICA,SECCO,Gomma e feltro: Secco
+Sacchetti freezer,PLASTICA,SECCO,Plastica non riciclabile: Secco
+Posate compostabili,PLASTICA,UMIDO,Bioplastica: Umido
+Piatti bioplastica,PLASTICA,UMIDO,Bioplastica: Umido
+Vernici,SECCO,ALTRO,Rifiuto chimico: Isola ecologica
+Macchina fotografica,SECCO,ALTRO,RAEE: Isola ecologica
+Mouse,SECCO,ALTRO,RAEE: Isola ecologica
+Cellulari,SECCO,ALTRO,RAEE: Isola ecologica
+Chiavette USB,SECCO,ALTRO,RAEE: Isola ecologica
+Computer,SECCO,ALTRO,RAEE: Isola ecologica
+Hard-disk,SECCO,ALTRO,RAEE: Isola ecologica
+Joystick,SECCO,ALTRO,RAEE: Isola ecologica
+Navigatore GPS,SECCO,ALTRO,RAEE: Isola ecologica
+Radio,SECCO,ALTRO,RAEE: Isola ecologica
+Schermi LED,SECCO,ALTRO,RAEE: Isola ecologica
+Stampanti,SECCO,ALTRO,RAEE: Isola ecologica
+Telecomandi,SECCO,ALTRO,RAEE: Isola ecologica
+Televisori,SECCO,ALTRO,RAEE: Isola ecologica
+Torce,SECCO,ALTRO,RAEE: Isola ecologica
+Videoregistratori,SECCO,ALTRO,RAEE: Isola ecologica
+Webcam,SECCO,ALTRO,RAEE: Isola ecologica
+Pneumatici,SECCO,ALTRO,Gomma speciale: Isola ecologica
+Frigoriferi,SECCO,ALTRO,Grande elettrodomestico: Isola
+Materassi,SECCO,ALTRO,Ingombrante: Isola ecologica
+Biciclette,SECCO,ALTRO,Metallo e gomma: Isola
+Condizionatori,SECCO,ALTRO,Grande elettrodomestico: Isola
+Congelatori,SECCO,ALTRO,Grande elettrodomestico: Isola
+Lavastoviglie,SECCO,ALTRO,Grande elettrodomestico: Isola
+Lavatrice,SECCO,ALTRO,Grande elettrodomestico: Isola
+Finestre,SECCO,ALTRO,Vetro e telaio: Isola ecologica
+Ombrelloni,SECCO,ALTRO,Ingombrante: Isola ecologica
+Poltrone,SECCO,ALTRO,Ingombrante: Isola ecologica
+Sci,SECCO,ALTRO,Materiali tecnici: Isola ecologica
+Sdraio,SECCO,ALTRO,Ingombrante: Isola ecologica
+Sedie,SECCO,ALTRO,Mobili: Isola ecologica
+Tavoli,SECCO,ALTRO,Mobili: Isola ecologica
+Valigie,SECCO,ALTRO,Ingombrante: Isola ecologica
+Vasca bagno,SECCO,ALTRO,Ingombrante: Isola ecologica
+Mensole,SECCO,ALTRO,Legno o metallo: Isola ecologica
+Grattugie,SECCO,ALTRO,Metallo: Isola ecologica
+Pentole,SECCO,ALTRO,Metallo: Isola ecologica
+Rubinetti,SECCO,ALTRO,Metallo: Isola ecologica
+Termosifoni,SECCO,ALTRO,Metallo: Isola ecologica
+Tubi metallo,SECCO,ALTRO,Metallo: Isola ecologica
+Portachiavi,SECCO,ALTRO,Metallo: Isola ecologica
+Graffette,SECCO,ALTRO,Metallo: Isola ecologica
+Chiodi e viti,SECCO,ALTRO,Metallo: Isola ecologica
+Divani,SECCO,ALTRO,Ingombrante: Isola ecologica
+Foglie secche,SECCO,ALTRO,Verde
+Piante senza vaso,SECCO,ALTRO,Verde
+Batterie auto,SECCO,ALTRO,Rifiuto pericoloso: Isola
+Piastrelle,SECCO,ALTRO,Scarti edili: Isola ecologica
+Terra,SECCO,ALTRO,Terra e sassi: Isola ecologica
+Erba,SECCO,ALTRO,Verde e ramaglie: Isola
+Ramaglie,SECCO,ALTRO,Verde e ramaglie: Isola
+Estintori,SECCO,ALTRO,Rifiuto speciale: Isola ecologica
+Lampade risparmio,SECCO,ALTRO,RAEE: Isola ecologica
+Neon,SECCO,ALTRO,RAEE: Isola ecologica
+Orologi,SECCO,ALTRO,RAEE o speciale: Isola
+Pannelli solari,SECCO,ALTRO,RAEE: Isola ecologica
+Termometri,SECCO,ALTRO,Rifiuto speciale: Isola ecologica
+Lampadari,SECCO,ALTRO,Arredamento: Isola ecologica
+Quadri,SECCO,ALTRO,Arredamento: Isola ecologica
+Bombole gas,SECCO,ALTRO,Contenitore speciale: Isola
+Aspirapolvere,SECCO,ALTRO,RAEE: Isola ecologica
+Frullatore,SECCO,ALTRO,RAEE: Isola ecologica
+Comodini,SECCO,ALTRO,Mobile legno: Isola ecologica
+Auricolari,SECCO,ALTRO,RAEE: Isola ecologica
+Pile esaurite,SECCO,ALTRO,Batterie esauste: Contenitori dedicati
+Batterie stilo,SECCO,ALTRO,Batterie esauste: Contenitori dedicati
+Monitor,SECCO,ALTRO,RAEE: Isola ecologica
+Chiavi serratura,SECCO,ALTRO,Metallo: Isola ecologica
+Appendiabiti legno,SECCO,ALTRO,Legno: Isola ecologica
+Appendiabiti metallo,SECCO,ALTRO,Metallo: Isola ecologica
+Medicinali scaduti,SECCO,ALTRO,Farmaci: Contenitori farmacia
+Bombolette spray,SECCO,ALTRO,Metallo: Isola ecologica
+Posate metallo,SECCO,ALTRO,Metallo: Isola ecologica
+Jeans buoni,SECCO,ALTRO,Abiti usati: Contenitori gialli
+Cappelli buoni,SECCO,ALTRO,Abiti usati: Contenitori gialli
+Giacche buone,SECCO,ALTRO,Abiti usati: Contenitori gialli
+Maglioni buoni,SECCO,ALTRO,Abiti usati: Contenitori gialli
+Sciarpe buone,SECCO,ALTRO,Abiti usati: Contenitori gialli
+Carta da fotocopie,SECCO,CARTA,Carta riciclabile: Carta
+Giornali,SECCO,CARTA,Carta riciclabile: Carta
+Riviste,SECCO,CARTA,Carta riciclabile: Carta
+Libri,SECCO,CARTA,Carta riciclabile: Carta
+Gratta e vinci,SECCO,CARTA,Carta riciclabile: Carta
+Buste carta pulite,SECCO,CARTA,Cellulosa pulita: Carta
+Sacchetti carta,SECCO,CARTA,Cellulosa pulita: Carta
+Tovaglia carta pulita,SECCO,CARTA,Cellulosa pulita: Carta
+Quaderno matematica,SECCO,CARTA,Carta pulita: Carta
+Quaderno inglese,SECCO,CARTA,Carta pulita: Carta
+Quaderno storia,SECCO,CARTA,Carta pulita: Carta
+Quaderno italiano,SECCO,CARTA,Carta pulita: Carta
+Rotolo carta igienica,SECCO,CARTA,Cartoncino: Carta
+Scatola di cereali,SECCO,CARTA,Cartoncino pulito: Carta
+Cartoni pizza puliti,SECCO,CARTA,Cartone pulito: Carta
+Scatole cartone,SECCO,CARTA,Cartone pulito: Carta
+Vaschette alluminio,SECCO,PLASTICA,Metallo leggero: Plastica/Metallo
+Lattine bibite,SECCO,PLASTICA,Metallo leggero: Plastica/Metallo
+Capsule caffè vuote,SECCO,PLASTICA,Plastica senza residui: Plastica
+Tappi plastica,SECCO,PLASTICA,Plastica riciclabile: Plastica
+Nylon imballaggio,SECCO,PLASTICA,Plastica da imballaggio: Plastica
+Retine frutta,SECCO,PLASTICA,Plastica da imballaggio: Plastica
+Sacchetti plastica,SECCO,PLASTICA,Plastica da imballaggio: Plastica
+Vasetti yogurt,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Tubetto dentifricio,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Flaconi detersivo,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Bicchierini caffè plastica,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Barattoli plastica,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Cassette frutta plastica,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Bottiglie plastica,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Buste plastica,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Busta caffè,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Cellophane,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Vassoio plastica cibo,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Imballaggio uovo Pasqua,SECCO,PLASTICA,Imballaggio plastica: Plastica
+Pellicola alluminio,SECCO,PLASTICA,Metallo leggero: Plastica
+Polistirolo vaschetta,SECCO,PLASTICA,Imballaggio polistirolo: Plastica
+Lattina Coca Cola,SECCO,PLASTICA,Metallo da imballaggio: Plastica
+Lattina Fanta,SECCO,PLASTICA,Metallo da imballaggio: Plastica
+Lattina Sprite,SECCO,PLASTICA,Metallo da imballaggio: Plastica
+Lattine acciaio,SECCO,PLASTICA,Metallo da imballaggio: Plastica
+Bicchieri plastica monouso,SECCO,PLASTICA,Plastica riciclabile: Plastica
+Appendiabiti plastica,SECCO,PLASTICA,Plastica riciclabile: Plastica
+Piatti plastica monouso,SECCO,PLASTICA,Plastica riciclabile: Plastica
+Stuzzicadenti,SECCO,UMIDO,Legno naturale: Umido
+Bastoncino gelato,SECCO,UMIDO,Legno naturale: Umido
+Segatura pulita,SECCO,UMIDO,Legno naturale: Umido
+Bustina di tè,SECCO,UMIDO,Filtro biodegradabile: Umido
+Gusci uova,SECCO,UMIDO,Residuo organico: Umido
+Insetti morti,SECCO,UMIDO,Residuo organico: Umido
+Fiori,SECCO,UMIDO,Scarto verde: Umido
+Noce cocco,SECCO,UMIDO,Residuo organico: Umido
+Ossi carne,SECCO,UMIDO,Residuo organico: Umido
+Verdura,SECCO,UMIDO,Residuo organico: Umido
+Ceneri legno,SECCO,UMIDO,Legno combusto: Umido
+Escrementi animali,SECCO,UMIDO,Residuo organico: Umido
+Capelli e peli,SECCO,UMIDO,Fibra naturale: Umido
+Conchiglie,SECCO,UMIDO,Calcare non compostabile: Secco
+Lische pesce,SECCO,UMIDO,Residuo organico: Umido
+Pezzo di pizza avanzato,SECCO,UMIDO,Avanzo alimentare: Umido
+Mela,SECCO,UMIDO,Avanzo naturale: Umido
+Buccia di banana,SECCO,UMIDO,Avanzo naturale: Umido
+Pera,SECCO,UMIDO,Avanzo naturale: Umido
+Nocciolo di pesca,SECCO,UMIDO,Avanzo naturale: Umido
+Gusci di arachidi,SECCO,UMIDO,Avanzo naturale: Umido
+Crosta di formaggio,SECCO,UMIDO,Avanzo alimentare: Umido
+Foglia di lattuga,SECCO,UMIDO,Avanzo naturale: Umido
+Semi di girasole,SECCO,UMIDO,Avanzo naturale: Umido
+Avanzi di cibo,SECCO,UMIDO,Avanzo alimentare: Umido
+Alimenti avariati,SECCO,UMIDO,Scarto organico: Umido
+Fondi caffè,SECCO,UMIDO,Scarto organico: Umido
+Pane,SECCO,UMIDO,Scarto organico: Umido
+Pasta cruda,SECCO,UMIDO,Scarto organico: Umido
+Bottiglie acqua vetro,SECCO,VETRO,Imballaggio vetro: Vetro
+Bottiglie vino vetro,SECCO,VETRO,Imballaggio vetro: Vetro
+Bottiglie bibita vetro,SECCO,VETRO,Imballaggio vetro: Vetro
+Bottiglie olio vetro,SECCO,VETRO,Imballaggio vetro: Vetro
+Tagliere legno,UMIDO,ALTRO,Legno trattato: Isola ecologica
+Sasso da giardino,UMIDO,ALTRO,Inerte naturale: Isola ecologica
+Corde,UMIDO,SECCO,Fibre miste: Secco
+Panni polvere,UMIDO,SECCO,Fibra sintetica: Secco
+Elastici,UMIDO,SECCO,Gomma: Secco
+Spugne sintetiche,UMIDO,SECCO,Plastica espansa: Secco
+Fiori finti,UMIDO,SECCO,Materiali misti: Secco
+Gessetti,UMIDO,SECCO,Polvere pressata: Secco
+Polvere aspirapolvere,UMIDO,SECCO,Sporco misto: Secco
+Borse pelle,UMIDO,SECCO,Pelle e metallo: Secco
+Cappelli rovinati,UMIDO,SECCO,Tessuto: Secco
+Coperte rovinate,UMIDO,SECCO,Tessuto: Secco
+Cuscino rovinato,UMIDO,SECCO,Tessuto e imbottitura: Secco
+Lenzuola rovinata,UMIDO,SECCO,Tessuto: Secco
+Calzini rovinati,UMIDO,SECCO,Tessuto: Secco
+Camicia rovinata,UMIDO,SECCO,Tessuto: Secco
+Pannolini,UMIDO,SECCO,Materiali assorbenti misti: Secco
+Assorbenti,UMIDO,SECCO,Materiali sintetici: Secco
+Cotton fioc plastica,UMIDO,SECCO,Plastica e ovatta: Secco
+Mozziconi,UMIDO,SECCO,Filtro e cenere: Secco
+Guanti pelle,UMIDO,SECCO,Pelle: Secco
+Candele cera,UMIDO,SECCO,Paraffina: Secco
+Cintura pelle,UMIDO,SECCO,Pelle e metallo: Secco
+Segatura sporca,UMIDO,SECCO,Legno sporco di chimici: Secco
+Specchi,VETRO,ALTRO,Vetro trattato: Isola ecologica
+Piatti ceramica,VETRO,SECCO,Ceramica: Secco
+Bicchieri vetro,VETRO,SECCO,Cristallo o vetro speciale: Secco
+Lenti occhiali,VETRO,SECCO,Vetro ottico: Secco
+Lampadine incandescenza,VETRO,SECCO,Vetro e filamenti: Secco
+Occhiali rotti,VETRO,SECCO,Metallo e lenti: Secco
+Tazze ceramica,VETRO,SECCO,Ceramica: Secco
+Ciotole terracotta,VETRO,SECCO,Terracotta: Secco
+Porcellana,VETRO,SECCO,Porcellana: Secco
+Penne scariche,PLASTICA,SECCO,Inchiostro e plastica dura: Secco
+Rossetto scaduto,PLASTICA,SECCO,Cosmetico e contenitore: Secco
+Sigarette spente,UMIDO,SECCO,Filtri non biodegradabili: Secco
+Biglietti compleanno,SECCO,CARTA,Carta pulita: Carta
+Cartoni pizza compostabili sporchi,CARTA,UMIDO,Residui di cibo e olio: Umido
+Fazzoletti puliti,UMIDO,CARTA,Cellulosa pulita: Carta
+Bambole,PLASTICA,SECCO,Materiali misti: Secco o Isola
+Confezioni frutta,SECCO,PLASTICA,Imballaggio: Plastica
+Libri di scuola,SECCO,CARTA,Cellulosa: Carta
+Fondi di caffe,SECCO,UMIDO,Scarto organico: Umido
+Capsule caffe,UMIDO,SECCO,Materiali misti: Secco
+Fiori morti,SECCO,UMIDO,Scarto verde: Umido
+Lische del pesce,SECCO,UMIDO,Scarto organico: Umido
+Cartoni pizza sporchi,CARTA,SECCO,Residui di cibo: Secco
+Gusci di cozze e vongole,UMIDO,SECCO,Calcare non compostabile: Secco
+Tappi di sughero,SECCO,UMIDO,Legno naturale: Umido
+Sacchetti patatine,CARTA,PLASTICA, Plastica
+Vaschette gelato ,SECCO,PLASTICA,Imballaggio leggero: Plastica
+Accendini esauriti,PLASTICA,SECCO,Secco

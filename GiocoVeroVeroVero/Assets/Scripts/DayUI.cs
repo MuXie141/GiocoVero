@@ -27,10 +27,8 @@ public class DayUI : MonoBehaviour
             }
             
 
-        // Hold
         yield return new WaitForSeconds(1f);
 
-        // Fade back out
         yield return Fade(overlay, 1f, 0f, 1f);
     }
 

@@ -1,0 +1,934 @@
+fileFormatVersion: 2
+guid: 7a6ff68a12f99bb4581c1eee5a9ccccb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1933334685089618791
+    second: L'armonia dell'ordine 1_0
+  - first:
+      213: 4503755078056127193
+    second: L'armonia dell'ordine 1_1
+  - first:
+      213: 3040033246344143822
+    second: L'armonia dell'ordine 1_2
+  - first:
+      213: 727755715504339434
+    second: L'armonia dell'ordine 1_3
+  - first:
+      213: 1130485467589617630
+    second: L'armonia dell'ordine 1_4
+  - first:
+      213: 2968392707254307348
+    second: L'armonia dell'ordine 1_5
+  - first:
+      213: 8460188307180128144
+    second: L'armonia dell'ordine 1_6
+  - first:
+      213: -66629122484821278
+    second: L'armonia dell'ordine 1_7
+  - first:
+      213: -4368372787552404707
+    second: L'armonia dell'ordine 1_8
+  - first:
+      213: -8064129454860872723
+    second: L'armonia dell'ordine 1_9
+  - first:
+      213: -2160691548784307628
+    second: L'armonia dell'ordine 1_10
+  - first:
+      213: -8600775212826262375
+    second: L'armonia dell'ordine 1_11
+  - first:
+      213: 8217054682309516967
+    second: L'armonia dell'ordine 1_12
+  - first:
+      213: 7916786949027087594
+    second: L'armonia dell'ordine 1_13
+  - first:
+      213: 2250330584936358867
+    second: L'armonia dell'ordine 1_14
+  - first:
+      213: -2467720205356627346
+    second: L'armonia dell'ordine 1_15
+  - first:
+      213: -6194286638266537501
+    second: L'armonia dell'ordine 1_16
+  - first:
+      213: -352749658640955247
+    second: L'armonia dell'ordine 1_17
+  - first:
+      213: -1490779256317869271
+    second: L'armonia dell'ordine 1_18
+  - first:
+      213: 732453196680711456
+    second: L'armonia dell'ordine 1_19
+  - first:
+      213: -8204044269484720481
+    second: L'armonia dell'ordine 1_20
+  - first:
+      213: 7593021947463763405
+    second: L'armonia dell'ordine 1_21
+  - first:
+      213: 1038667153888502113
+    second: L'armonia dell'ordine 1_22
+  - first:
+      213: -1914577257111666403
+    second: L'armonia dell'ordine 1_23
+  - first:
+      213: 3670639077160581459
+    second: L'armonia dell'ordine 1_24
+  - first:
+      213: 6500428284254795378
+    second: L'armonia dell'ordine 1_25
+  - first:
+      213: -3849709571952090080
+    second: L'armonia dell'ordine 1_26
+  - first:
+      213: -5050977787322551198
+    second: L'armonia dell'ordine 1_27
+  - first:
+      213: 7846965556808157357
+    second: L'armonia dell'ordine 1_28
+  - first:
+      213: -2096340403202709994
+    second: L'armonia dell'ordine 1_29
+  - first:
+      213: 496702463503865372
+    second: L'armonia dell'ordine 1_30
+  - first:
+      213: -2280047701217989186
+    second: L'armonia dell'ordine 1_31
+  - first:
+      213: -767317858245203086
+    second: L'armonia dell'ordine 1_32
+  - first:
+      213: 7164413764082982007
+    second: L'armonia dell'ordine 1_33
+  - first:
+      213: -5795309672291556362
+    second: L'armonia dell'ordine 1_34
+  - first:
+      213: -881017813971127168
+    second: L'armonia dell'ordine 1_35
+  - first:
+      213: -8911376907247592835
+    second: L'armonia dell'ordine 1_36
+  - first:
+      213: -398193183549729358
+    second: L'armonia dell'ordine 1_37
+  - first:
+      213: 2402454063307745998
+    second: L'armonia dell'ordine 1_38
+  - first:
+      213: -3945558348734443285
+    second: L'armonia dell'ordine 1_39
+  - first:
+      213: -8134803283800458743
+    second: L'armonia dell'ordine 1_40
+  - first:
+      213: -2040845253984411203
+    second: L'armonia dell'ordine 1_41
+  - first:
+      213: 4620476721345685216
+    second: L'armonia dell'ordine 1_42
+  - first:
+      213: 2027951065694779183
+    second: L'armonia dell'ordine 1_43
+  - first:
+      213: -5052584889199357918
+    second: L'armonia dell'ordine 1_44
+  - first:
+      213: -2412705728672357377
+    second: L'armonia dell'ordine 1_45
+  - first:
+      213: 1358858092494808267
+    second: L'armonia dell'ordine 1_46
+  - first:
+      213: -2606288554732421883
+    second: L'armonia dell'ordine 1_47
+  - first:
+      213: 8850891767123207570
+    second: L'armonia dell'ordine 1_48
+  - first:
+      213: -4114002679731813011
+    second: L'armonia dell'ordine 1_49
+  - first:
+      213: 5482683753474679387
+    second: L'armonia dell'ordine 1_50
+  - first:
+      213: -6143001162203015856
+    second: L'armonia dell'ordine 1_51
+  - first:
+      213: 4780870599265311160
+    second: L'armonia dell'ordine 1_52
+  - first:
+      213: 872491048659993961
+    second: L'armonia dell'ordine 1_53
+  - first:
+      213: 7151013261649831988
+    second: L'armonia dell'ordine 1_54
+  - first:
+      213: 7503119200844345172
+    second: L'armonia dell'ordine 1_55
+  - first:
+      213: 3787435221538953181
+    second: L'armonia dell'ordine 1_56
+  - first:
+      213: -5403885561884027365
+    second: L'armonia dell'ordine 1_57
+  - first:
+      213: 4582927631623676644
+    second: L'armonia dell'ordine 1_58
+  - first:
+      213: 8450213988326513653
+    second: L'armonia dell'ordine 1_59
+  - first:
+      213: 5912667199592791376
+    second: L'armonia dell'ordine 1_60
+  - first:
+      213: 5398257574940505319
+    second: L'armonia dell'ordine 1_61
+  - first:
+      213: 2002033294953120398
+    second: L'armonia dell'ordine 1_62
+  - first:
+      213: -4424805373805242489
+    second: L'armonia dell'ordine 1_63
+  - first:
+      213: -5051682402197234261
+    second: L'armonia dell'ordine 1_64
+  - first:
+      213: -6808619989072914845
+    second: L'armonia dell'ordine 1_65
+  - first:
+      213: 5540735918911715939
+    second: L'armonia dell'ordine 1_66
+  - first:
+      213: 5718572412012788223
+    second: L'armonia dell'ordine 1_67
+  - first:
+      213: 5890841543327208272
+    second: L'armonia dell'ordine 1_68
+  - first:
+      213: -8512604559783693949
+    second: L'armonia dell'ordine 1_69
+  - first:
+      213: 2131919556324456493
+    second: L'armonia dell'ordine 1_70
+  - first:
+      213: -7149380217443847943
+    second: L'armonia dell'ordine 1_71
+  - first:
+      213: 8709865384816808137
+    second: L'armonia dell'ordine 1_72
+  - first:
+      213: -7513608389373404464
+    second: L'armonia dell'ordine 1_73
+  - first:
+      213: 3134677678306205336
+    second: L'armonia dell'ordine 1_74
+  - first:
+      213: -6727182225172861461
+    second: L'armonia dell'ordine 1_75
+  - first:
+      213: -2211112654513521819
+    second: L'armonia dell'ordine 1_76
+  - first:
+      213: 321399623263677483
+    second: L'armonia dell'ordine 1_77
+  - first:
+      213: -1208929484731614030
+    second: L'armonia dell'ordine 1_78
+  - first:
+      213: -6762336628533436336
+    second: L'armonia dell'ordine 1_79
+  - first:
+      213: -1067276830130751287
+    second: L'armonia dell'ordine 1_80
+  - first:
+      213: -8269825781608422571
+    second: L'armonia dell'ordine 1_81
+  - first:
+      213: -6198440879056712022
+    second: L'armonia dell'ordine 1_82
+  - first:
+      213: 5087990133278143280
+    second: L'armonia dell'ordine 1_83
+  - first:
+      213: 749474499375258089
+    second: L'armonia dell'ordine 1_84
+  - first:
+      213: -5692927903123098737
+    second: L'armonia dell'ordine 1_85
+  - first:
+      213: -9210809543336398067
+    second: L'armonia dell'ordine 1_86
+  - first:
+      213: 5463569703517966313
+    second: L'armonia dell'ordine 1_87
+  - first:
+      213: -8581694011742727239
+    second: L'armonia dell'ordine 1_88
+  - first:
+      213: -2291902091025283999
+    second: L'armonia dell'ordine 1_89
+  - first:
+      213: 4824425636621096460
+    second: L'armonia dell'ordine 1_90
+  - first:
+      213: -6378813116654750306
+    second: L'armonia dell'ordine 1_91
+  - first:
+      213: -7467166987016836869
+    second: L'armonia dell'ordine 1_92
+  - first:
+      213: -4755001970293415741
+    second: L'armonia dell'ordine 1_93
+  - first:
+      213: 3396569398171340148
+    second: L'armonia dell'ordine 1_94
+  - first:
+      213: -2822455526042726892
+    second: L'armonia dell'ordine 1_95
+  - first:
+      213: 519099328015847042
+    second: L'armonia dell'ordine 1_96
+  - first:
+      213: 2886389213280446885
+    second: L'armonia dell'ordine 1_97
+  - first:
+      213: -440653819810060214
+    second: L'armonia dell'ordine 1_98
+  - first:
+      213: -389632073651771631
+    second: L'armonia dell'ordine 1_99
+  - first:
+      213: -7080451023461255058
+    second: L'armonia dell'ordine 1_100
+  - first:
+      213: 6113950709541898219
+    second: L'armonia dell'ordine 1_101
+  - first:
+      213: -8035606446038090112
+    second: L'armonia dell'ordine 1_102
+  - first:
+      213: -4493418777906769481
+    second: L'armonia dell'ordine 1_103
+  - first:
+      213: 2296913588789815975
+    second: L'armonia dell'ordine 1_104
+  - first:
+      213: 6785415775720910380
+    second: L'armonia dell'ordine 1_105
+  - first:
+      213: 5012123657025377445
+    second: L'armonia dell'ordine 1_106
+  - first:
+      213: -4604116476446847506
+    second: L'armonia dell'ordine 1_107
+  - first:
+      213: 5168466374915464252
+    second: L'armonia dell'ordine 1_108
+  - first:
+      213: 2145098283920023496
+    second: L'armonia dell'ordine 1_109
+  - first:
+      213: -586692378704268348
+    second: L'armonia dell'ordine 1_110
+  - first:
+      213: 6818512457189283588
+    second: L'armonia dell'ordine 1_111
+  - first:
+      213: 7900381212647709262
+    second: L'armonia dell'ordine 1_112
+  - first:
+      213: -4743524918789597881
+    second: L'armonia dell'ordine 1_113
+  - first:
+      213: -354543252337441129
+    second: L'armonia dell'ordine 1_114
+  - first:
+      213: 3613911423386551915
+    second: L'armonia dell'ordine 1_115
+  - first:
+      213: -8942264889083161714
+    second: L'armonia dell'ordine 1_116
+  - first:
+      213: 70582885147335617
+    second: L'armonia dell'ordine 1_117
+  - first:
+      213: 6974039420847891819
+    second: L'armonia dell'ordine 1_118
+  - first:
+      213: 7502456009164360370
+    second: L'armonia dell'ordine 1_119
+  - first:
+      213: -24052785128467854
+    second: L'armonia dell'ordine 1_120
+  - first:
+      213: 8825751717071161763
+    second: L'armonia dell'ordine 1_121
+  - first:
+      213: -4827597857219600036
+    second: L'armonia dell'ordine 1_122
+  - first:
+      213: 7804907771527352111
+    second: L'armonia dell'ordine 1_123
+  - first:
+      213: 986538028590120824
+    second: L'armonia dell'ordine 1_124
+  - first:
+      213: 2669661612416312066
+    second: L'armonia dell'ordine 1_125
+  - first:
+      213: -721015637891246689
+    second: L'armonia dell'ordine 1_126
+  - first:
+      213: 7256748542386360388
+    second: L'armonia dell'ordine 1_127
+  - first:
+      213: -1009550619971330166
+    second: L'armonia dell'ordine 1_128
+  - first:
+      213: 9010954336343760923
+    second: L'armonia dell'ordine 1_129
+  - first:
+      213: -8173371964527536459
+    second: L'armonia dell'ordine 1_130
+  - first:
+      213: 8785413312946669880
+    second: L'armonia dell'ordine 1_131
+  - first:
+      213: -6230756991999523247
+    second: L'armonia dell'ordine 1_132
+  - first:
+      213: -985073247506117764
+    second: L'armonia dell'ordine 1_133
+  - first:
+      213: -4494347311898369286
+    second: L'armonia dell'ordine 1_134
+  - first:
+      213: -7534923622339526651
+    second: L'armonia dell'ordine 1_135
+  - first:
+      213: -6433617512077129867
+    second: L'armonia dell'ordine 1_136
+  - first:
+      213: -1118307698242844190
+    second: L'armonia dell'ordine 1_137
+  - first:
+      213: 8008571857624128299
+    second: L'armonia dell'ordine 1_138
+  - first:
+      213: -1665391671763422211
+    second: L'armonia dell'ordine 1_139
+  - first:
+      213: 7968579096168087372
+    second: L'armonia dell'ordine 1_140
+  - first:
+      213: 6214405339621510352
+    second: L'armonia dell'ordine 1_141
+  - first:
+      213: -765202360537835258
+    second: L'armonia dell'ordine 1_142
+  - first:
+      213: -7072601504988259070
+    second: L'armonia dell'ordine 1_143
+  - first:
+      213: 2822237354842558782
+    second: L'armonia dell'ordine 1_144
+  - first:
+      213: 864685086735480993
+    second: L'armonia dell'ordine 1_145
+  - first:
+      213: -6162831492447756720
+    second: L'armonia dell'ordine 1_146
+  - first:
+      213: -2091343321138271475
+    second: L'armonia dell'ordine 1_147
+  - first:
+      213: 2025684177672913283
+    second: L'armonia dell'ordine 1_148
+  - first:
+      213: 7786257895889803517
+    second: L'armonia dell'ordine 1_149
+  - first:
+      213: -3723153188080803992
+    second: L'armonia dell'ordine 1_150
+  - first:
+      213: 2377237596096134875
+    second: L'armonia dell'ordine 1_151
+  - first:
+      213: 8691571735872935175
+    second: L'armonia dell'ordine 1_152
+  - first:
+      213: -2161160432525691414
+    second: L'armonia dell'ordine 1_153
+  - first:
+      213: -6509289330341348895
+    second: L'armonia dell'ordine 1_154
+  - first:
+      213: 6470318907345378226
+    second: L'armonia dell'ordine 1_155
+  - first:
+      213: -6765026346856235071
+    second: L'armonia dell'ordine 1_156
+  - first:
+      213: 6213508912964839863
+    second: L'armonia dell'ordine 1_157
+  - first:
+      213: 6709029330851185499
+    second: L'armonia dell'ordine 1_158
+  - first:
+      213: -6873720479479881623
+    second: L'armonia dell'ordine 1_159
+  - first:
+      213: -7351850270141084045
+    second: L'armonia dell'ordine 1_160
+  - first:
+      213: -5288333876981286563
+    second: L'armonia dell'ordine 1_161
+  - first:
+      213: 6047737208910737587
+    second: L'armonia dell'ordine 1_162
+  - first:
+      213: 1521188280030801892
+    second: L'armonia dell'ordine 1_163
+  - first:
+      213: 2588534083572858083
+    second: L'armonia dell'ordine 1_164
+  - first:
+      213: 1264033294707446154
+    second: L'armonia dell'ordine 1_165
+  - first:
+      213: 7597633024367246136
+    second: L'armonia dell'ordine 1_166
+  - first:
+      213: -8672937064217324857
+    second: L'armonia dell'ordine 1_167
+  - first:
+      213: 7586612038515717772
+    second: L'armonia dell'ordine 1_168
+  - first:
+      213: -7568217508568633831
+    second: L'armonia dell'ordine 1_169
+  - first:
+      213: 3998380909386196610
+    second: L'armonia dell'ordine 1_170
+  - first:
+      213: 4780562606297423437
+    second: L'armonia dell'ordine 1_171
+  - first:
+      213: -1789509458728370003
+    second: L'armonia dell'ordine 1_172
+  - first:
+      213: -8612287285027586124
+    second: L'armonia dell'ordine 1_173
+  - first:
+      213: -1736528114250478776
+    second: L'armonia dell'ordine 1_174
+  - first:
+      213: 7541187674838698744
+    second: L'armonia dell'ordine 1_175
+  - first:
+      213: 7749474020173610763
+    second: L'armonia dell'ordine 1_176
+  - first:
+      213: 526979486309042298
+    second: L'armonia dell'ordine 1_177
+  - first:
+      213: -5879914783003864957
+    second: L'armonia dell'ordine 1_178
+  - first:
+      213: -8493542568746719505
+    second: L'armonia dell'ordine 1_179
+  - first:
+      213: 5670764156495983586
+    second: L'armonia dell'ordine 1_180
+  - first:
+      213: 1693217201291734415
+    second: L'armonia dell'ordine 1_181
+  - first:
+      213: 6369779789580809504
+    second: L'armonia dell'ordine 1_182
+  - first:
+      213: -8722624330771030607
+    second: L'armonia dell'ordine 1_183
+  - first:
+      213: -6615778490339914449
+    second: L'armonia dell'ordine 1_184
+  - first:
+      213: 4787994982318108650
+    second: L'armonia dell'ordine 1_185
+  - first:
+      213: -8863513871149293839
+    second: L'armonia dell'ordine 1_186
+  - first:
+      213: 2458090799198528128
+    second: L'armonia dell'ordine 1_187
+  - first:
+      213: 5975813792657288792
+    second: L'armonia dell'ordine 1_188
+  - first:
+      213: 6784836600721121467
+    second: L'armonia dell'ordine 1_189
+  - first:
+      213: 6299324636007708071
+    second: L'armonia dell'ordine 1_190
+  - first:
+      213: 4549257066124583669
+    second: L'armonia dell'ordine 1_191
+  - first:
+      213: 5065236852706878318
+    second: L'armonia dell'ordine 1_192
+  - first:
+      213: 709245995419783086
+    second: L'armonia dell'ordine 1_193
+  - first:
+      213: -8506022180838055269
+    second: L'armonia dell'ordine 1_194
+  - first:
+      213: -5584813038665683986
+    second: L'armonia dell'ordine 1_195
+  - first:
+      213: -1779140766045079468
+    second: L'armonia dell'ordine 1_196
+  - first:
+      213: 8995546857680010143
+    second: L'armonia dell'ordine 1_197
+  - first:
+      213: 4385340694002471038
+    second: L'armonia dell'ordine 1_198
+  - first:
+      213: 3870379101436626425
+    second: L'armonia dell'ordine 1_199
+  - first:
+      213: 881479121350757112
+    second: L'armonia dell'ordine 1_200
+  - first:
+      213: -8813617370898783645
+    second: L'armonia dell'ordine 1_201
+  - first:
+      213: -394342648093436318
+    second: L'armonia dell'ordine 1_202
+  - first:
+      213: 180805659896667699
+    second: L'armonia dell'ordine 1_203
+  - first:
+      213: -927706484743177198
+    second: L'armonia dell'ordine 1_204
+  - first:
+      213: -2517437466958158801
+    second: L'armonia dell'ordine 1_205
+  - first:
+      213: 5474842657477650827
+    second: L'armonia dell'ordine 1_206
+  - first:
+      213: 1654472981588204910
+    second: L'armonia dell'ordine 1_207
+  - first:
+      213: -5303067058507040496
+    second: L'armonia dell'ordine 1_208
+  - first:
+      213: -1352081186676508933
+    second: L'armonia dell'ordine 1_209
+  - first:
+      213: -7743644456440588841
+    second: L'armonia dell'ordine 1_210
+  - first:
+      213: -8226428371138613488
+    second: L'armonia dell'ordine 1_211
+  - first:
+      213: 3276989084485492363
+    second: L'armonia dell'ordine 1_212
+  - first:
+      213: 1257231395084107542
+    second: L'armonia dell'ordine 1_213
+  - first:
+      213: -371033760804618067
+    second: L'armonia dell'ordine 1_214
+  - first:
+      213: 1164212690516272737
+    second: L'armonia dell'ordine 1_215
+  - first:
+      213: -5964717307506116515
+    second: L'armonia dell'ordine 1_216
+  - first:
+      213: -2971661756420436347
+    second: L'armonia dell'ordine 1_217
+  - first:
+      213: 3452373746268976344
+    second: L'armonia dell'ordine 1_218
+  - first:
+      213: 5904621765614111537
+    second: L'armonia dell'ordine 1_219
+  - first:
+      213: 543604816562936017
+    second: L'armonia dell'ordine 1_220
+  - first:
+      213: -4749395729664610467
+    second: L'armonia dell'ordine 1_221
+  - first:
+      213: 4887862570268926105
+    second: L'armonia dell'ordine 1_222
+  - first:
+      213: -2754012348391841546
+    second: L'armonia dell'ordine 1_223
+  - first:
+      213: -2816211662231018633
+    second: L'armonia dell'ordine 1_224
+  - first:
+      213: 2625430854110300413
+    second: L'armonia dell'ordine 1_225
+  - first:
+      213: 8133443761549871832
+    second: L'armonia dell'ordine 1_226
+  - first:
+      213: 8524114168830473322
+    second: L'armonia dell'ordine 1_227
+  - first:
+      213: 6620615921422818363
+    second: L'armonia dell'ordine 1_228
+  - first:
+      213: -897384764770107703
+    second: L'armonia dell'ordine 1_229
+  - first:
+      213: 8508538306081303679
+    second: L'armonia dell'ordine 1_230
+  - first:
+      213: 722222529854398771
+    second: L'armonia dell'ordine 1_231
+  - first:
+      213: -6407099931395987952
+    second: L'armonia dell'ordine 1_232
+  - first:
+      213: -9000920044371256232
+    second: L'armonia dell'ordine 1_233
+  - first:
+      213: 5393626010135013443
+    second: L'armonia dell'ordine 1_234
+  - first:
+      213: 35512422430086122
+    second: L'armonia dell'ordine 1_235
+  - first:
+      213: -6431225516086990157
+    second: L'armonia dell'ordine 1_236
+  - first:
+      213: -7891197259834858546
+    second: L'armonia dell'ordine 1_237
+  - first:
+      213: -2843835947126517390
+    second: L'armonia dell'ordine 1_238
+  - first:
+      213: -6519432489784360438
+    second: L'armonia dell'ordine 1_239
+  - first:
+      213: 8457061233779737567
+    second: L'armonia dell'ordine 1_240
+  - first:
+      213: 4069104776681067757
+    second: L'armonia dell'ordine 1_241
+  - first:
+      213: -9182175453702952677
+    second: L'armonia dell'ordine 1_242
+  - first:
+      213: 7816299847315417207
+    second: L'armonia dell'ordine 1_243
+  - first:
+      213: 1788866378913781736
+    second: L'armonia dell'ordine 1_244
+  - first:
+      213: 339552984429742481
+    second: L'armonia dell'ordine 1_245
+  - first:
+      213: -7060587414190310528
+    second: L'armonia dell'ordine 1_246
+  - first:
+      213: 5932931994430396746
+    second: L'armonia dell'ordine 1_247
+  - first:
+      213: 4176185516746477678
+    second: L'armonia dell'ordine 1_248
+  - first:
+      213: 6015012287802420877
+    second: L'armonia dell'ordine 1_249
+  - first:
+      213: -1071675598292058576
+    second: L'armonia dell'ordine 1_250
+  - first:
+      213: 1014549889102645855
+    second: L'armonia dell'ordine 1_251
+  - first:
+      213: -670744073291936881
+    second: L'armonia dell'ordine 1_252
+  - first:
+      213: 5163774411181845168
+    second: L'armonia dell'ordine 1_253
+  - first:
+      213: 8801721871984995454
+    second: L'armonia dell'ordine 1_254
+  - first:
+      213: -6009456366481007282
+    second: L'armonia dell'ordine 1_255
+  - first:
+      213: 7223396683086704462
+    second: L'armonia dell'ordine 1_256
+  - first:
+      213: 2818631080279060424
+    second: L'armonia dell'ordine 1_257
+  - first:
+      213: 3672893960203719675
+    second: L'armonia dell'ordine 1_258
+  - first:
+      213: -2246287079470341937
+    second: L'armonia dell'ordine 1_259
+  - first:
+      213: -7132237201829151308
+    second: L'armonia dell'ordine 1_260
+  - first:
+      213: 642164048232962385
+    second: L'armonia dell'ordine 1_261
+  - first:
+      213: 4513927559243146671
+    second: L'armonia dell'ordine 1_262
+  - first:
+      213: -6736983947169732871
+    second: L'armonia dell'ordine 1_263
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: L'armonia dell'ordine 1_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 75
+        width: 225
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b55b027a594da10800000000000000
+      internalID: 1933334685089618791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8bfca6a51d2bac141bf46865f2acb4aa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":333.0,"y":250.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      L'armonia dell'ordine 1_0: 1933334685089618791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

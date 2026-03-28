@@ -1,19 +1,12 @@
 using UnityEngine;
 
-public class SferaRule : MonoBehaviour
+public class SferaRule : Rule
 {
     [SerializeField] private GameObject buttons;
     [SerializeField] private GameObject gameobject;
     [SerializeField] private ElementAnimation rifiutiAnimation;
 
 
-    private ElementAnimation elementAnimation;
-    
-
-    private void Awake()
-    {
-        elementAnimation = GetComponent<ElementAnimation>();
-    }
 
     public void Primo()
     {

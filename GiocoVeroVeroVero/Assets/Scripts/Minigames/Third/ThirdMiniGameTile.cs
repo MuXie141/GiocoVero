@@ -44,9 +44,7 @@ public class ThirdMiniGameTile : MonoBehaviour
                     break;
             }
 
-            float fuelPercent = fuelValue / maxFuel; 
-
-            img.color = Color.Lerp(Color.black, baseBurnColor, fuelPercent);
+            img.color = baseBurnColor;
         }
         else if (currentState == State.BURNT)
         {
@@ -86,7 +84,7 @@ public class ThirdMiniGameTile : MonoBehaviour
             fuelValue = 90f;         
             maxFuel = fuelValue;  
             heatOutput = 15f;        
-            heatStartBurning = 150f;  
+            heatStartBurning = 125f;  
         }
         else 
         {

@@ -19,6 +19,7 @@ public class GameElement : MonoBehaviour
     public class InteractionRule
     {
         public string targetId; 
+        public bool ignoreLevel;
         public sbyte targetLevel;
         public UnityEvent onPresent;    
         public UnityEvent onAbsent;    
@@ -64,7 +65,8 @@ public class GameElement : MonoBehaviour
             GameManager.Instance.ruleExecuted = true; //Invoke chiamerà una funzione per falsarlo
             //GameManager.Instance.doNothing = true; // Questo è per dire a TransitionEffect quando può cambiare il variabile wait
             //GameManager.Instance.wait = true;
-            if (GameManager.Instance.checkHistory(rule.targetId, rule.targetLevel))
+
+            if (CheckHistory(rule))
             {
                 if (rule.modifyLevel == true) Modify(rule.target);
                 if (rule.onPresent.GetPersistentEventCount() != 0) rule.onPresent.Invoke(); //Debug.Log("onPresent");
@@ -96,6 +98,19 @@ public class GameElement : MonoBehaviour
         StartCoroutine(GameManager.Instance.UpdateRules());
     }
 
+    private bool CheckHistory(InteractionRule rule)
+    {
+        if(!rule.ignoreLevel)
+        {
+            return GameManager.Instance.checkHistory(rule.targetId, rule.targetLevel);
+        }
+        else
+        {
+            return GameManager.Instance.checkHistory2(rule.targetId);
+        }
+        
+    }
+
     
 
     public IEnumerator ExecuteUpdateRule()
@@ -104,7 +119,7 @@ public class GameElement : MonoBehaviour
         for (int i = onUpdateRules.Count - 1; i >= 0; i--)
         {
             InteractionRule rule = onUpdateRules[i];
-            if (GameManager.Instance.checkHistory(rule.targetId, rule.targetLevel))
+            if (CheckHistory(rule))
             {
                 if (rule.modifyLevel == true) Modify(rule.target);
                 if (rule.onPresent.GetPersistentEventCount() != 0) {rule.onPresent.Invoke(); onUpdateRules.Remove(rule);}  // Debug.Log("onPresent");

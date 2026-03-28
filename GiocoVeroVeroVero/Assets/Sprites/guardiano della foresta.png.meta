@@ -1,0 +1,1339 @@
+fileFormatVersion: 2
+guid: 6567baf8cff47ac418e2800490c03950
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6215424878831130717
+    second: guardiano della foresta_0
+  - first:
+      213: -542202516550874490
+    second: guardiano della foresta_1
+  - first:
+      213: 6465237609082732399
+    second: guardiano della foresta_2
+  - first:
+      213: -793637111467342726
+    second: guardiano della foresta_3
+  - first:
+      213: 829918439235069169
+    second: guardiano della foresta_4
+  - first:
+      213: 8843955203939855302
+    second: guardiano della foresta_5
+  - first:
+      213: -4435182977456681226
+    second: guardiano della foresta_6
+  - first:
+      213: 4976529727344465529
+    second: guardiano della foresta_7
+  - first:
+      213: -5722664035762096843
+    second: guardiano della foresta_8
+  - first:
+      213: -8574898561653665180
+    second: guardiano della foresta_9
+  - first:
+      213: 3870055488319599106
+    second: guardiano della foresta_10
+  - first:
+      213: -6847338755577249836
+    second: guardiano della foresta_11
+  - first:
+      213: -4523041531920740314
+    second: guardiano della foresta_12
+  - first:
+      213: -1984499768745964337
+    second: guardiano della foresta_13
+  - first:
+      213: -2989596425935241364
+    second: guardiano della foresta_14
+  - first:
+      213: -2160873502341755193
+    second: guardiano della foresta_15
+  - first:
+      213: -21480902937144440
+    second: guardiano della foresta_16
+  - first:
+      213: -1614521782138090192
+    second: guardiano della foresta_17
+  - first:
+      213: 1322303326015260077
+    second: guardiano della foresta_18
+  - first:
+      213: -2230668731716084439
+    second: guardiano della foresta_19
+  - first:
+      213: 1017334992065005601
+    second: guardiano della foresta_20
+  - first:
+      213: 4000319924448965278
+    second: guardiano della foresta_21
+  - first:
+      213: -4244022716794886181
+    second: guardiano della foresta_22
+  - first:
+      213: -4556745404906625906
+    second: guardiano della foresta_23
+  - first:
+      213: 2700619466666085437
+    second: guardiano della foresta_24
+  - first:
+      213: 8590672853675523845
+    second: guardiano della foresta_25
+  - first:
+      213: 5950158948694570448
+    second: guardiano della foresta_26
+  - first:
+      213: -9000578066710135376
+    second: guardiano della foresta_27
+  - first:
+      213: -6639026398692010827
+    second: guardiano della foresta_28
+  - first:
+      213: -4568722400738835405
+    second: guardiano della foresta_29
+  - first:
+      213: -3525523965715365241
+    second: guardiano della foresta_30
+  - first:
+      213: -2058385210572307617
+    second: guardiano della foresta_31
+  - first:
+      213: 2096347861757957607
+    second: guardiano della foresta_32
+  - first:
+      213: 4406226947743031055
+    second: guardiano della foresta_33
+  - first:
+      213: -5346100140645133327
+    second: guardiano della foresta_34
+  - first:
+      213: -1210892730374160094
+    second: guardiano della foresta_35
+  - first:
+      213: 1729056379285276372
+    second: guardiano della foresta_36
+  - first:
+      213: 6649363967400947932
+    second: guardiano della foresta_37
+  - first:
+      213: -2081071353661721400
+    second: guardiano della foresta_38
+  - first:
+      213: 3810165391391310748
+    second: guardiano della foresta_39
+  - first:
+      213: -4769687274170382709
+    second: guardiano della foresta_40
+  - first:
+      213: 5146723748657728388
+    second: guardiano della foresta_41
+  - first:
+      213: 2408408409058731085
+    second: guardiano della foresta_42
+  - first:
+      213: -7209729354706690660
+    second: guardiano della foresta_43
+  - first:
+      213: 3563008635269780374
+    second: guardiano della foresta_44
+  - first:
+      213: -4305805608451149722
+    second: guardiano della foresta_45
+  - first:
+      213: -5326701166902294333
+    second: guardiano della foresta_46
+  - first:
+      213: 7687299333966941295
+    second: guardiano della foresta_47
+  - first:
+      213: -3602751886179857865
+    second: guardiano della foresta_48
+  - first:
+      213: 3717034946667767040
+    second: guardiano della foresta_49
+  - first:
+      213: -381577067122082642
+    second: guardiano della foresta_50
+  - first:
+      213: 3986781850597450191
+    second: guardiano della foresta_51
+  - first:
+      213: -6680748081436932009
+    second: guardiano della foresta_52
+  - first:
+      213: -1276885139945431696
+    second: guardiano della foresta_53
+  - first:
+      213: 6065161531355152138
+    second: guardiano della foresta_54
+  - first:
+      213: -984468298014761771
+    second: guardiano della foresta_55
+  - first:
+      213: -5773082191534179296
+    second: guardiano della foresta_56
+  - first:
+      213: -1871428852616212728
+    second: guardiano della foresta_57
+  - first:
+      213: -6646984786554603465
+    second: guardiano della foresta_58
+  - first:
+      213: -1595656416689485699
+    second: guardiano della foresta_59
+  - first:
+      213: -6943888327414363063
+    second: guardiano della foresta_60
+  - first:
+      213: -3222334889311273688
+    second: guardiano della foresta_61
+  - first:
+      213: 3819470389922310905
+    second: guardiano della foresta_62
+  - first:
+      213: -7923238012008399625
+    second: guardiano della foresta_63
+  - first:
+      213: -6915693215206103728
+    second: guardiano della foresta_64
+  - first:
+      213: -8948467279951083096
+    second: guardiano della foresta_65
+  - first:
+      213: 6522265639926123346
+    second: guardiano della foresta_66
+  - first:
+      213: -2135244262028461465
+    second: guardiano della foresta_67
+  - first:
+      213: 3448603736778447375
+    second: guardiano della foresta_68
+  - first:
+      213: -6525289994717642764
+    second: guardiano della foresta_69
+  - first:
+      213: -3503641233341142518
+    second: guardiano della foresta_70
+  - first:
+      213: -8215283036570231336
+    second: guardiano della foresta_71
+  - first:
+      213: -8772124740242060083
+    second: guardiano della foresta_72
+  - first:
+      213: -8918267043392174453
+    second: guardiano della foresta_73
+  - first:
+      213: 7913438374572453611
+    second: guardiano della foresta_74
+  - first:
+      213: -4376836277162056550
+    second: guardiano della foresta_75
+  - first:
+      213: -4914111634120449228
+    second: guardiano della foresta_76
+  - first:
+      213: -5580644790823619282
+    second: guardiano della foresta_77
+  - first:
+      213: -5355276175364495583
+    second: guardiano della foresta_78
+  - first:
+      213: -1291532814894469318
+    second: guardiano della foresta_79
+  - first:
+      213: -4194439842629112017
+    second: guardiano della foresta_80
+  - first:
+      213: -3225446307258062214
+    second: guardiano della foresta_81
+  - first:
+      213: 1443734938977745477
+    second: guardiano della foresta_82
+  - first:
+      213: 7687320788493748378
+    second: guardiano della foresta_83
+  - first:
+      213: -8602447936927180650
+    second: guardiano della foresta_84
+  - first:
+      213: 2832086003385457366
+    second: guardiano della foresta_85
+  - first:
+      213: -9172876436943354439
+    second: guardiano della foresta_86
+  - first:
+      213: -2277212895262143110
+    second: guardiano della foresta_87
+  - first:
+      213: -5412120561577291567
+    second: guardiano della foresta_88
+  - first:
+      213: -3277589588996142908
+    second: guardiano della foresta_89
+  - first:
+      213: 1511655411365687912
+    second: guardiano della foresta_90
+  - first:
+      213: -1449674053545127728
+    second: guardiano della foresta_91
+  - first:
+      213: -7404837907653112463
+    second: guardiano della foresta_92
+  - first:
+      213: 3196821110680943665
+    second: guardiano della foresta_93
+  - first:
+      213: 4829702904411184356
+    second: guardiano della foresta_94
+  - first:
+      213: -7504489914818666003
+    second: guardiano della foresta_95
+  - first:
+      213: 6279705927401384884
+    second: guardiano della foresta_96
+  - first:
+      213: -3244741927090810720
+    second: guardiano della foresta_97
+  - first:
+      213: -3178622373849946188
+    second: guardiano della foresta_98
+  - first:
+      213: -358477191978497011
+    second: guardiano della foresta_99
+  - first:
+      213: 1351380917696420092
+    second: guardiano della foresta_100
+  - first:
+      213: 2365782458597891712
+    second: guardiano della foresta_101
+  - first:
+      213: -5065760675035711620
+    second: guardiano della foresta_102
+  - first:
+      213: -7132576176682458350
+    second: guardiano della foresta_103
+  - first:
+      213: -3474732160450940898
+    second: guardiano della foresta_104
+  - first:
+      213: 9135795735075674369
+    second: guardiano della foresta_105
+  - first:
+      213: -7016996482026921378
+    second: guardiano della foresta_106
+  - first:
+      213: 8363719725403839392
+    second: guardiano della foresta_107
+  - first:
+      213: -1081446483591739367
+    second: guardiano della foresta_108
+  - first:
+      213: 3200439863053837663
+    second: guardiano della foresta_109
+  - first:
+      213: 5126489010658751997
+    second: guardiano della foresta_110
+  - first:
+      213: -8697713716102039509
+    second: guardiano della foresta_111
+  - first:
+      213: -7616924375039333434
+    second: guardiano della foresta_112
+  - first:
+      213: 428471460137199384
+    second: guardiano della foresta_113
+  - first:
+      213: 8414324174187820175
+    second: guardiano della foresta_114
+  - first:
+      213: -751545763105632085
+    second: guardiano della foresta_115
+  - first:
+      213: 3058735257110627643
+    second: guardiano della foresta_116
+  - first:
+      213: -6881268316013414979
+    second: guardiano della foresta_117
+  - first:
+      213: 163028293238814105
+    second: guardiano della foresta_118
+  - first:
+      213: 2052010815757819960
+    second: guardiano della foresta_119
+  - first:
+      213: 8365544031517587625
+    second: guardiano della foresta_120
+  - first:
+      213: 3335035159261732009
+    second: guardiano della foresta_121
+  - first:
+      213: 23773183978824493
+    second: guardiano della foresta_122
+  - first:
+      213: -1672834089662732242
+    second: guardiano della foresta_123
+  - first:
+      213: -3283410395737049616
+    second: guardiano della foresta_124
+  - first:
+      213: -9147528016547168404
+    second: guardiano della foresta_125
+  - first:
+      213: 1199066340595360848
+    second: guardiano della foresta_126
+  - first:
+      213: -5038058790580517221
+    second: guardiano della foresta_127
+  - first:
+      213: -545699598208508732
+    second: guardiano della foresta_128
+  - first:
+      213: -3287294058003357432
+    second: guardiano della foresta_129
+  - first:
+      213: 7694800606791685871
+    second: guardiano della foresta_130
+  - first:
+      213: -5333873802348538289
+    second: guardiano della foresta_131
+  - first:
+      213: 601784222281015035
+    second: guardiano della foresta_132
+  - first:
+      213: -4236230129796522270
+    second: guardiano della foresta_133
+  - first:
+      213: 5647107571413287528
+    second: guardiano della foresta_134
+  - first:
+      213: -9009538197966505769
+    second: guardiano della foresta_135
+  - first:
+      213: 3521637468141054620
+    second: guardiano della foresta_136
+  - first:
+      213: -7417652837789210225
+    second: guardiano della foresta_137
+  - first:
+      213: 3921701493082630321
+    second: guardiano della foresta_138
+  - first:
+      213: 3503201537827049622
+    second: guardiano della foresta_139
+  - first:
+      213: 2850208658428014406
+    second: guardiano della foresta_140
+  - first:
+      213: -9208023310297848254
+    second: guardiano della foresta_141
+  - first:
+      213: -2618545174392508327
+    second: guardiano della foresta_142
+  - first:
+      213: 691683430833874790
+    second: guardiano della foresta_143
+  - first:
+      213: 3718417680746274153
+    second: guardiano della foresta_144
+  - first:
+      213: 6548534979487694473
+    second: guardiano della foresta_145
+  - first:
+      213: 2806745569987719278
+    second: guardiano della foresta_146
+  - first:
+      213: -5252883868698638022
+    second: guardiano della foresta_147
+  - first:
+      213: 2624736268041470804
+    second: guardiano della foresta_148
+  - first:
+      213: -2102385118509506019
+    second: guardiano della foresta_149
+  - first:
+      213: 7935966162007261233
+    second: guardiano della foresta_150
+  - first:
+      213: -2111925867037600062
+    second: guardiano della foresta_151
+  - first:
+      213: -6273730031836110191
+    second: guardiano della foresta_152
+  - first:
+      213: -4828558226585118986
+    second: guardiano della foresta_153
+  - first:
+      213: -1964627605173472593
+    second: guardiano della foresta_154
+  - first:
+      213: -3170922501889319261
+    second: guardiano della foresta_155
+  - first:
+      213: 3669560481960479599
+    second: guardiano della foresta_156
+  - first:
+      213: 7225646047051612388
+    second: guardiano della foresta_157
+  - first:
+      213: 3158794500919526312
+    second: guardiano della foresta_158
+  - first:
+      213: 5518736873299842779
+    second: guardiano della foresta_159
+  - first:
+      213: 973339670985605675
+    second: guardiano della foresta_160
+  - first:
+      213: 4112975620220682120
+    second: guardiano della foresta_161
+  - first:
+      213: -4607547849435481055
+    second: guardiano della foresta_162
+  - first:
+      213: 1764095770541663893
+    second: guardiano della foresta_163
+  - first:
+      213: 8853591582965697881
+    second: guardiano della foresta_164
+  - first:
+      213: 1206732116750011826
+    second: guardiano della foresta_165
+  - first:
+      213: -4203074678773940942
+    second: guardiano della foresta_166
+  - first:
+      213: -3766645832581326218
+    second: guardiano della foresta_167
+  - first:
+      213: 7524116652833322686
+    second: guardiano della foresta_168
+  - first:
+      213: -7439706161274780628
+    second: guardiano della foresta_169
+  - first:
+      213: 6004707459452371993
+    second: guardiano della foresta_170
+  - first:
+      213: 4821128094738737765
+    second: guardiano della foresta_171
+  - first:
+      213: 3720883917674830375
+    second: guardiano della foresta_172
+  - first:
+      213: 5068681943982871054
+    second: guardiano della foresta_173
+  - first:
+      213: -5866531063315649171
+    second: guardiano della foresta_174
+  - first:
+      213: -2219748132285094238
+    second: guardiano della foresta_175
+  - first:
+      213: 5598356199047458098
+    second: guardiano della foresta_176
+  - first:
+      213: 8043430975593075779
+    second: guardiano della foresta_177
+  - first:
+      213: -5908118802906740136
+    second: guardiano della foresta_178
+  - first:
+      213: 5771392864259069847
+    second: guardiano della foresta_179
+  - first:
+      213: -4973761482392107431
+    second: guardiano della foresta_180
+  - first:
+      213: 6088245460867602542
+    second: guardiano della foresta_181
+  - first:
+      213: -6810449789324585617
+    second: guardiano della foresta_182
+  - first:
+      213: -1097143151062728055
+    second: guardiano della foresta_183
+  - first:
+      213: 8542422281321352938
+    second: guardiano della foresta_184
+  - first:
+      213: 9132809041908163218
+    second: guardiano della foresta_185
+  - first:
+      213: -8576465503354041870
+    second: guardiano della foresta_186
+  - first:
+      213: -9188751087013017375
+    second: guardiano della foresta_187
+  - first:
+      213: 1769941189640879840
+    second: guardiano della foresta_188
+  - first:
+      213: 625903164654754208
+    second: guardiano della foresta_189
+  - first:
+      213: -7691013796294127964
+    second: guardiano della foresta_190
+  - first:
+      213: 3652471675371465351
+    second: guardiano della foresta_191
+  - first:
+      213: 4463211417763543912
+    second: guardiano della foresta_192
+  - first:
+      213: 8951295982734174014
+    second: guardiano della foresta_193
+  - first:
+      213: 3199132973823695593
+    second: guardiano della foresta_194
+  - first:
+      213: -769253207146783950
+    second: guardiano della foresta_195
+  - first:
+      213: -8800148604737616652
+    second: guardiano della foresta_196
+  - first:
+      213: 3711280477577281786
+    second: guardiano della foresta_197
+  - first:
+      213: -599974642795280554
+    second: guardiano della foresta_198
+  - first:
+      213: -3590735766588668834
+    second: guardiano della foresta_199
+  - first:
+      213: 7350845908908370384
+    second: guardiano della foresta_200
+  - first:
+      213: 6984742423310751212
+    second: guardiano della foresta_201
+  - first:
+      213: 195260642510930667
+    second: guardiano della foresta_202
+  - first:
+      213: 3310648102755878493
+    second: guardiano della foresta_203
+  - first:
+      213: -4431972586463464110
+    second: guardiano della foresta_204
+  - first:
+      213: 7041254414154385584
+    second: guardiano della foresta_205
+  - first:
+      213: -4212530138226728474
+    second: guardiano della foresta_206
+  - first:
+      213: 1389679544751640769
+    second: guardiano della foresta_207
+  - first:
+      213: -7283027827502119516
+    second: guardiano della foresta_208
+  - first:
+      213: 5446788070431594422
+    second: guardiano della foresta_209
+  - first:
+      213: -2491805996015421895
+    second: guardiano della foresta_210
+  - first:
+      213: -881057339988593734
+    second: guardiano della foresta_211
+  - first:
+      213: -1315379825771871126
+    second: guardiano della foresta_212
+  - first:
+      213: 8491563718161050846
+    second: guardiano della foresta_213
+  - first:
+      213: 5320464824624736927
+    second: guardiano della foresta_214
+  - first:
+      213: 4918575999419591082
+    second: guardiano della foresta_215
+  - first:
+      213: 2871232776782905519
+    second: guardiano della foresta_216
+  - first:
+      213: 2486732116001831890
+    second: guardiano della foresta_217
+  - first:
+      213: 7100343917753788809
+    second: guardiano della foresta_218
+  - first:
+      213: -4542022079712626961
+    second: guardiano della foresta_219
+  - first:
+      213: -8778996823609007067
+    second: guardiano della foresta_220
+  - first:
+      213: 2170588360162710822
+    second: guardiano della foresta_221
+  - first:
+      213: -1402319557427162163
+    second: guardiano della foresta_222
+  - first:
+      213: -5912421003345548568
+    second: guardiano della foresta_223
+  - first:
+      213: -2396663877461388826
+    second: guardiano della foresta_224
+  - first:
+      213: 5458795834077522368
+    second: guardiano della foresta_225
+  - first:
+      213: -5477574521847228291
+    second: guardiano della foresta_226
+  - first:
+      213: -8629289127887422527
+    second: guardiano della foresta_227
+  - first:
+      213: 2810941086782731115
+    second: guardiano della foresta_228
+  - first:
+      213: 5659269230366023925
+    second: guardiano della foresta_229
+  - first:
+      213: 2772251334310389900
+    second: guardiano della foresta_230
+  - first:
+      213: 7565774612030463008
+    second: guardiano della foresta_231
+  - first:
+      213: -8544752209001299742
+    second: guardiano della foresta_232
+  - first:
+      213: 3242073807046077282
+    second: guardiano della foresta_233
+  - first:
+      213: 2589737503343731112
+    second: guardiano della foresta_234
+  - first:
+      213: -9166537195743261385
+    second: guardiano della foresta_235
+  - first:
+      213: 6086678877584761631
+    second: guardiano della foresta_236
+  - first:
+      213: -8734719781137153146
+    second: guardiano della foresta_237
+  - first:
+      213: 2907653305158152099
+    second: guardiano della foresta_238
+  - first:
+      213: 6090698290651438681
+    second: guardiano della foresta_239
+  - first:
+      213: -789149528133609874
+    second: guardiano della foresta_240
+  - first:
+      213: 2805866585454754354
+    second: guardiano della foresta_241
+  - first:
+      213: 8978297764866168114
+    second: guardiano della foresta_242
+  - first:
+      213: -6904409934386679504
+    second: guardiano della foresta_243
+  - first:
+      213: 5966810380875413086
+    second: guardiano della foresta_244
+  - first:
+      213: 3316257148903131639
+    second: guardiano della foresta_245
+  - first:
+      213: -5651830092886475393
+    second: guardiano della foresta_246
+  - first:
+      213: -112819122776593056
+    second: guardiano della foresta_247
+  - first:
+      213: -2501655969820319214
+    second: guardiano della foresta_248
+  - first:
+      213: -4273726644532381234
+    second: guardiano della foresta_249
+  - first:
+      213: 3466421846138946390
+    second: guardiano della foresta_250
+  - first:
+      213: 8001665936451132459
+    second: guardiano della foresta_251
+  - first:
+      213: 8286914498437855890
+    second: guardiano della foresta_252
+  - first:
+      213: 3350538197606249917
+    second: guardiano della foresta_253
+  - first:
+      213: -6586150931884532902
+    second: guardiano della foresta_254
+  - first:
+      213: 3087922999038801378
+    second: guardiano della foresta_255
+  - first:
+      213: 6154593212999988398
+    second: guardiano della foresta_256
+  - first:
+      213: 1578870896021846761
+    second: guardiano della foresta_257
+  - first:
+      213: -5164818861067421957
+    second: guardiano della foresta_258
+  - first:
+      213: 8235238550767772477
+    second: guardiano della foresta_259
+  - first:
+      213: 4299988278174111474
+    second: guardiano della foresta_260
+  - first:
+      213: -2861211550157172658
+    second: guardiano della foresta_261
+  - first:
+      213: -7369382336624775384
+    second: guardiano della foresta_262
+  - first:
+      213: -4682732659827258202
+    second: guardiano della foresta_263
+  - first:
+      213: 3128276252123069870
+    second: guardiano della foresta_264
+  - first:
+      213: 7517508952622771406
+    second: guardiano della foresta_265
+  - first:
+      213: 7370320492205843427
+    second: guardiano della foresta_266
+  - first:
+      213: 6877286246703911023
+    second: guardiano della foresta_267
+  - first:
+      213: 4235281089420092168
+    second: guardiano della foresta_268
+  - first:
+      213: 3523012095707140981
+    second: guardiano della foresta_269
+  - first:
+      213: -1972710691014235614
+    second: guardiano della foresta_270
+  - first:
+      213: 4283553828895186857
+    second: guardiano della foresta_271
+  - first:
+      213: 4000605101012572740
+    second: guardiano della foresta_272
+  - first:
+      213: -2244140098333325238
+    second: guardiano della foresta_273
+  - first:
+      213: -1584188762669407126
+    second: guardiano della foresta_274
+  - first:
+      213: -8861918064952054631
+    second: guardiano della foresta_275
+  - first:
+      213: -2990440900376920581
+    second: guardiano della foresta_276
+  - first:
+      213: -6891940363429188773
+    second: guardiano della foresta_277
+  - first:
+      213: -989984640060257610
+    second: guardiano della foresta_278
+  - first:
+      213: 4477358858848167154
+    second: guardiano della foresta_279
+  - first:
+      213: 5417262927344002603
+    second: guardiano della foresta_280
+  - first:
+      213: -8678403131834077584
+    second: guardiano della foresta_281
+  - first:
+      213: -2699470351475773978
+    second: guardiano della foresta_282
+  - first:
+      213: 5616127179192750351
+    second: guardiano della foresta_283
+  - first:
+      213: -3229403675013972049
+    second: guardiano della foresta_284
+  - first:
+      213: -8826456733015569706
+    second: guardiano della foresta_285
+  - first:
+      213: -6322298170699002007
+    second: guardiano della foresta_286
+  - first:
+      213: -8390449237176496506
+    second: guardiano della foresta_287
+  - first:
+      213: -5218443631293632033
+    second: guardiano della foresta_288
+  - first:
+      213: -3829508776027949295
+    second: guardiano della foresta_289
+  - first:
+      213: -7106025275016487459
+    second: guardiano della foresta_290
+  - first:
+      213: 8905737380143253554
+    second: guardiano della foresta_291
+  - first:
+      213: 5836887905499976418
+    second: guardiano della foresta_292
+  - first:
+      213: -2358153270118410547
+    second: guardiano della foresta_293
+  - first:
+      213: -8457461318024028314
+    second: guardiano della foresta_294
+  - first:
+      213: -2757784632285685796
+    second: guardiano della foresta_295
+  - first:
+      213: 7814874248927845228
+    second: guardiano della foresta_296
+  - first:
+      213: 7171707062438274525
+    second: guardiano della foresta_297
+  - first:
+      213: 1974618212018867270
+    second: guardiano della foresta_298
+  - first:
+      213: 4323570014123390009
+    second: guardiano della foresta_299
+  - first:
+      213: 3478559180251216660
+    second: guardiano della foresta_300
+  - first:
+      213: -841825188798776665
+    second: guardiano della foresta_301
+  - first:
+      213: -6909272325565293653
+    second: guardiano della foresta_302
+  - first:
+      213: -5388292182710263724
+    second: guardiano della foresta_303
+  - first:
+      213: 6945893854837049581
+    second: guardiano della foresta_304
+  - first:
+      213: -8122087833021251395
+    second: guardiano della foresta_305
+  - first:
+      213: -3901846589124471069
+    second: guardiano della foresta_306
+  - first:
+      213: -6281765108001640627
+    second: guardiano della foresta_307
+  - first:
+      213: -6964855162967654109
+    second: guardiano della foresta_308
+  - first:
+      213: 429751536483575022
+    second: guardiano della foresta_309
+  - first:
+      213: 8539068249140314036
+    second: guardiano della foresta_310
+  - first:
+      213: 4791777468870572129
+    second: guardiano della foresta_311
+  - first:
+      213: 5558625781334598424
+    second: guardiano della foresta_312
+  - first:
+      213: 1101787130238736407
+    second: guardiano della foresta_313
+  - first:
+      213: 3715920628735411842
+    second: guardiano della foresta_314
+  - first:
+      213: 6626685301033844222
+    second: guardiano della foresta_315
+  - first:
+      213: -6649829430111610783
+    second: guardiano della foresta_316
+  - first:
+      213: 6730060066269344367
+    second: guardiano della foresta_317
+  - first:
+      213: -6729043628782820681
+    second: guardiano della foresta_318
+  - first:
+      213: 9175105027844984045
+    second: guardiano della foresta_319
+  - first:
+      213: 8210709605755978194
+    second: guardiano della foresta_320
+  - first:
+      213: 384449511677784971
+    second: guardiano della foresta_321
+  - first:
+      213: 652255017421529910
+    second: guardiano della foresta_322
+  - first:
+      213: 4243965622165316890
+    second: guardiano della foresta_323
+  - first:
+      213: 4349436990729424612
+    second: guardiano della foresta_324
+  - first:
+      213: -2289547898741401909
+    second: guardiano della foresta_325
+  - first:
+      213: -3107211609046624147
+    second: guardiano della foresta_326
+  - first:
+      213: 5662280293405316760
+    second: guardiano della foresta_327
+  - first:
+      213: -276114716066410756
+    second: guardiano della foresta_328
+  - first:
+      213: -4803822728368159720
+    second: guardiano della foresta_329
+  - first:
+      213: -7192773447748906368
+    second: guardiano della foresta_330
+  - first:
+      213: -998820235313385111
+    second: guardiano della foresta_331
+  - first:
+      213: 8336194432340337314
+    second: guardiano della foresta_332
+  - first:
+      213: 1185168039087543049
+    second: guardiano della foresta_333
+  - first:
+      213: 1442912559308191459
+    second: guardiano della foresta_334
+  - first:
+      213: 5016454609841907144
+    second: guardiano della foresta_335
+  - first:
+      213: 3486777100341538443
+    second: guardiano della foresta_336
+  - first:
+      213: 4387581766864193762
+    second: guardiano della foresta_337
+  - first:
+      213: 3575517743622718645
+    second: guardiano della foresta_338
+  - first:
+      213: -3256499178017147919
+    second: guardiano della foresta_339
+  - first:
+      213: -3282420444932738326
+    second: guardiano della foresta_340
+  - first:
+      213: 8276855412231520871
+    second: guardiano della foresta_341
+  - first:
+      213: -4020377371692684215
+    second: guardiano della foresta_342
+  - first:
+      213: 5203677642195796550
+    second: guardiano della foresta_343
+  - first:
+      213: 8500707845491477818
+    second: guardiano della foresta_344
+  - first:
+      213: -2573137071192542344
+    second: guardiano della foresta_345
+  - first:
+      213: 2347956084508876616
+    second: guardiano della foresta_346
+  - first:
+      213: -6828192550228062291
+    second: guardiano della foresta_347
+  - first:
+      213: -4852568748524493747
+    second: guardiano della foresta_348
+  - first:
+      213: 1096535349944283830
+    second: guardiano della foresta_349
+  - first:
+      213: 6569498912561501564
+    second: guardiano della foresta_350
+  - first:
+      213: -2134550090956567774
+    second: guardiano della foresta_351
+  - first:
+      213: -6999134968009969704
+    second: guardiano della foresta_352
+  - first:
+      213: -7262295678126296419
+    second: guardiano della foresta_353
+  - first:
+      213: -1002137843633946466
+    second: guardiano della foresta_354
+  - first:
+      213: 3228270464370163468
+    second: guardiano della foresta_355
+  - first:
+      213: -5515872762585671800
+    second: guardiano della foresta_356
+  - first:
+      213: -3500671352229694888
+    second: guardiano della foresta_357
+  - first:
+      213: 4632541560312604582
+    second: guardiano della foresta_358
+  - first:
+      213: 4062910551006527246
+    second: guardiano della foresta_359
+  - first:
+      213: 5305338174859283243
+    second: guardiano della foresta_360
+  - first:
+      213: 2232868143025393293
+    second: guardiano della foresta_361
+  - first:
+      213: -7603610133548403017
+    second: guardiano della foresta_362
+  - first:
+      213: 1397628084771025220
+    second: guardiano della foresta_363
+  - first:
+      213: -4934426358114060710
+    second: guardiano della foresta_364
+  - first:
+      213: -2533519167635456080
+    second: guardiano della foresta_365
+  - first:
+      213: 373784155831175166
+    second: guardiano della foresta_366
+  - first:
+      213: 7488935280589173880
+    second: guardiano della foresta_367
+  - first:
+      213: 7223961459238119989
+    second: guardiano della foresta_368
+  - first:
+      213: 4006812583228980190
+    second: guardiano della foresta_369
+  - first:
+      213: -4047723772206435988
+    second: guardiano della foresta_370
+  - first:
+      213: 8668066509324708525
+    second: guardiano della foresta_371
+  - first:
+      213: -8660051709997421141
+    second: guardiano della foresta_372
+  - first:
+      213: 5622017049846646096
+    second: guardiano della foresta_373
+  - first:
+      213: 1797419308304148342
+    second: guardiano della foresta_374
+  - first:
+      213: -1489200789718467480
+    second: guardiano della foresta_375
+  - first:
+      213: 3411272469580091829
+    second: guardiano della foresta_376
+  - first:
+      213: -8421980938462435929
+    second: guardiano della foresta_377
+  - first:
+      213: 5852008552477707139
+    second: guardiano della foresta_378
+  - first:
+      213: 830639773583435375
+    second: guardiano della foresta_379
+  - first:
+      213: -8453634984804645610
+    second: guardiano della foresta_380
+  - first:
+      213: 5386486974454286870
+    second: guardiano della foresta_381
+  - first:
+      213: 6972986931892897266
+    second: guardiano della foresta_382
+  - first:
+      213: -7773314001969193709
+    second: guardiano della foresta_383
+  - first:
+      213: 4111151690390716311
+    second: guardiano della foresta_384
+  - first:
+      213: 4195065153829391228
+    second: guardiano della foresta_385
+  - first:
+      213: -9212697410368260948
+    second: guardiano della foresta_386
+  - first:
+      213: -3215879903084151038
+    second: guardiano della foresta_387
+  - first:
+      213: 9099759037144090498
+    second: guardiano della foresta_388
+  - first:
+      213: -3281153956421584133
+    second: guardiano della foresta_389
+  - first:
+      213: -2697297978198937100
+    second: guardiano della foresta_390
+  - first:
+      213: 8362814183334112088
+    second: guardiano della foresta_391
+  - first:
+      213: 1927228916892404933
+    second: guardiano della foresta_392
+  - first:
+      213: 437891401862473140
+    second: guardiano della foresta_393
+  - first:
+      213: -5210813619138934079
+    second: guardiano della foresta_394
+  - first:
+      213: 8585478131478036691
+    second: guardiano della foresta_395
+  - first:
+      213: -3880176616808001447
+    second: guardiano della foresta_396
+  - first:
+      213: 2019573563703661280
+    second: guardiano della foresta_397
+  - first:
+      213: -134888829625339676
+    second: guardiano della foresta_398
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: guardiano della foresta_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 22
+        width: 271
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a72521e0006eb9a0800000000000000
+      internalID: -6215424878831130717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5913e3cfc3b9a164eb365809f1270639
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":333.0,"y":250.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      guardiano della foresta_0: -6215424878831130717
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

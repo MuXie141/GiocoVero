@@ -10,7 +10,7 @@ public class FirstMiniGame2 : MonoBehaviour
     public AudioClip correct;
     public AudioClip wrong;
     public AudioClip miss;
-    void Awake()
+    void OnEnable()
     {
         Instance = this;
     }

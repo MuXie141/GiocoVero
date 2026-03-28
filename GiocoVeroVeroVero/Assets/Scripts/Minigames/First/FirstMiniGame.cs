@@ -82,7 +82,7 @@ public class FirstMiniGame : MonoBehaviour
     [SerializeField] private Image bin1;
     [SerializeField] private Image bin2;
     [SerializeField] private Sprite[] sprites;
-    private Animator animator;
+    [SerializeField] private Animator animator;
     //Game
     public static FirstMiniGame Instance;
     [SerializeField] private int wastesAmount;
@@ -110,6 +110,15 @@ public class FirstMiniGame : MonoBehaviour
     void OnEnable()
     {
         ResultsMenu.SetActive(false);
+        ReadCSV();
+        Instance = this;
+        StartCoroutine(WaitOneSecond());
+    }
+
+    IEnumerator WaitOneSecond()
+    {
+        yield return null;
+        
         currentWastesNumber= 0;
         correct= 0;
         misses = 0;
@@ -118,19 +127,16 @@ public class FirstMiniGame : MonoBehaviour
         NewWaste();
     }
 
-    void Awake()
-    {
-        ReadCSV();
-        Instance = this;
-        animator = FirstMiniGame2.Instance.GetComponent<Animator>();
-    }
+
+
+   
     
   
 
     void UpdateScene(string name,WasteType type1, WasteType type2)
     {
         textMeshPro.text = name;
-        int randomInt = UnityEngine.Random.Range(0,1);
+        int randomInt = UnityEngine.Random.Range(0,2);
         switch(randomInt)
         {
             case 0:
@@ -142,8 +148,8 @@ public class FirstMiniGame : MonoBehaviour
             case 1:
                 bin1.sprite = sprites[(int)type2];
                 bin2.sprite = sprites[(int)type1];
-                bin2Type = type2;
-                bin1Type = type1;
+                bin1Type = type2;
+                bin2Type = type1;
                 break;
         }
 
@@ -168,14 +174,19 @@ public class FirstMiniGame : MonoBehaviour
         else
         {
             
-            int randomInt2 = UnityEngine.Random.Range(0,4);
+            WasteType wasteType;
+            do 
+            {
+                wasteType = (WasteType)UnityEngine.Random.Range(0, 5);
+            } while(wasteType == currentWaste.correct || wasteType == currentWaste.wrong);
+
             if(currentWaste.correct == WasteType.ALTRO)
             {
-                UpdateScene(currentWaste.name,currentWaste.wrong , (WasteType)randomInt2);
+                UpdateScene(currentWaste.name,currentWaste.wrong , wasteType);
             }
             else
             {
-                UpdateScene(currentWaste.name , currentWaste.correct,(WasteType) randomInt2);
+                UpdateScene(currentWaste.name , currentWaste.correct,wasteType);
             }
         }
 

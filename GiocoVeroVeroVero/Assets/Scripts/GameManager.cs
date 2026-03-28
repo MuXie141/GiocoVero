@@ -124,6 +124,18 @@ public class GameManager : MonoBehaviour
         }
         return false;
     }
+
+    public bool checkHistory2(string targetId)
+    {
+        for (int i = 0; i < History.Count; i++)
+        {
+            if (History[i].id == targetId )
+            {
+                return true;
+            }
+        }
+        return false;
+    }
     
     public bool IsElementActive(string targetId, sbyte targetLevel)
     {
@@ -201,6 +213,18 @@ public class GameManager : MonoBehaviour
             if (History[i].id == targetId )
             {
                 History[i].level = level;
+            }
+        }
+    }
+
+    public void RemoveElementFromHistory(string s)
+    {
+        for (int i = 0; i < History.Count; i++)
+        {
+            if (History[i].id == s)
+            {
+                History.RemoveAt(i);
+                break;
             }
         }
     }

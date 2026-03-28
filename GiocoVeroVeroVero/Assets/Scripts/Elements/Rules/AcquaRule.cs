@@ -10,6 +10,7 @@ public class AcquaRule : MonoBehaviour
     {
         elementAnimation = GetComponent<ElementAnimation>();
     }
+    
     public void Primo()
     {
         cameraMovement.MoveCamera();
@@ -35,4 +36,5 @@ public class AcquaRule : MonoBehaviour
     {
         elementAnimation.PlayAnimation("Acqua-Penultimo");
     }
+
 }

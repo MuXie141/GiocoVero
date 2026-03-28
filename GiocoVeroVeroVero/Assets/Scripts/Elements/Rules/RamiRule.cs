@@ -1,13 +1,8 @@
 using UnityEngine;
 
-public class RamiRule : MonoBehaviour
+public class RamiRule : Rule
 {
-    private ElementAnimation elementAnimation;
 
-    private void Awake()
-    {
-        elementAnimation = GetComponent<ElementAnimation>();
-    }
     public void Primo()
     {
         elementAnimation.PlayAnimation("Rami-Primo");

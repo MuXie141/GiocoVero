@@ -27,10 +27,11 @@ public class ThirdMiniGame: MonoBehaviour
 
     void Start()
     {
-        GenerateGrid();
-        StartCoroutine(TickRoutine());
         seedX = Random.Range(0f, 99999f);
         seedY = Random.Range(0f, 99999f);
+        GenerateGrid();
+        StartCoroutine(TickRoutine());
+        
     }
     
     private float GetNoiseValue(int x, int y) 
@@ -127,7 +128,6 @@ public class ThirdMiniGame: MonoBehaviour
     [Header("Tick Settings")]
     [SerializeField] private float tickRate = 0.5f;
     private bool isPaused = false;
-    private Coroutine coroutine;
 
     IEnumerator TickRoutine()
     {
@@ -189,10 +189,10 @@ public class ThirdMiniGame: MonoBehaviour
                                 float currentDist = Vector2.Distance(new Vector2(x, y), wildfireOrigin);
                                 float neighborDist = Vector2.Distance(new Vector2(neighborTile.x, neighborTile.y), wildfireOrigin);
 
-                                if (neighborDist < currentDist)
+                                if (neighborDist < currentDist-0.7f)
                                 {
                                     
-                                    neighborTile.currentHeat += (tile.heatOutput/  n.Value) * 0.85f; 
+                                    neighborTile.currentHeat += (tile.heatOutput/  n.Value) * 1.3f; 
                                     if(neighborTile.currentState!=ThirdMiniGameTile.State.BURNING)neighborTile.isPlayerFire = true;
                                 }
 
@@ -215,7 +215,7 @@ public class ThirdMiniGame: MonoBehaviour
         {
             for (int y = 0; y < height; y++)
             {
-                ThirdMiniGameTile tile = gridArray[x, y].GetComponent<ThirdMiniGameTile>();
+                ThirdMiniGameTile tile = tileGrid[x, y];
 
                 if (tile.currentState == ThirdMiniGameTile.State.HEALTHY && tile.currentHeat >= tile.heatStartBurning)
                 {
@@ -275,8 +275,7 @@ public class ThirdMiniGame: MonoBehaviour
 
         unit = (gridCorners[3].x - gridCorners[0].x) / width;
     }
-    bool done=false;
-    bool done1=false;
+
 
 
     void Update()
@@ -318,16 +317,21 @@ public class ThirdMiniGame: MonoBehaviour
         int burningCount = 0;
         int healthyCount = 0;
         int burntCount = 0;
+        bool onlyPlayerFire = true;
 
         foreach (var tile in tileGrid)
         {
-            if (tile.currentState == ThirdMiniGameTile.State.BURNING) burningCount++;
+            if (tile.currentState == ThirdMiniGameTile.State.BURNING)
+            {
+                burningCount++;
+                if (!tile.isPlayerFire) onlyPlayerFire = false;
+            } 
             else if (tile.currentState == ThirdMiniGameTile.State.HEALTHY) healthyCount++;
             else if (tile.currentState == ThirdMiniGameTile.State.BURNT) burntCount++;
         }
         UpdateFireAudio(burningCount);
 
-        if (burningCount == 0)
+        if (burningCount == 0 && !resultsPanel.activeSelf|| onlyPlayerFire)
         {
             ShowResults(healthyCount, burntCount);
             crackle.Stop();
@@ -353,7 +357,7 @@ public class ThirdMiniGame: MonoBehaviour
         gridArray = null;
         tileGrid = null;
     }
-    public void ResetGame()
+     void OnEnable()
     {
         resultsPanel.SetActive(false);
         ClearExistingGrid();

@@ -10,6 +10,11 @@ public class RifiutiRule : MonoBehaviour
     }
     public void Primo()
     {
+        if(GameManager.Instance.checkHistory("Semi",50))
+        {
+            Ultimo();
+            return;
+        } 
         elementAnimation.PlayAnimation("Rifiuti-Primo");
     }
 

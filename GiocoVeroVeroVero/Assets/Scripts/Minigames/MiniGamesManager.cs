@@ -1,0 +1,78 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class MinigamesManager : MonoBehaviour
+{
+    [SerializeField] private Animator animator;
+    private GameObject currentMiniGame;
+    [SerializeField] private GameObject miniGameMenu;
+    [SerializeField] private Image image;
+    [SerializeField] private Sprite[] countDown;
+    [SerializeField] private GameObject num;
+    [SerializeField] private GameObject backGround;
+    public bool active= true;
+    public void OpenMinigame(GameObject minigame)
+    {
+        if(!active) return;
+        GameManager.Instance.wait = true;
+        animator.Play("StartMiniGame");
+        backGround.SetActive(true);
+        miniGameMenu.SetActive(true);
+        currentMiniGame = minigame;
+        image.sprite = minigame.GetComponent<Image>().sprite; 
+    }
+
+    public void StartMiniGameCoroutine()
+    {
+        StartCoroutine(StartMiniGame());
+    }
+
+    IEnumerator StartMiniGame()
+    {
+        miniGameMenu.SetActive(false);
+        num.SetActive(true);
+        for (int i = 0; i < countDown.Length; i++) 
+        {
+            num.GetComponent<Image>().sprite = countDown[i]; 
+            yield return new WaitForSeconds(1f);
+        }
+        num.SetActive(false);
+        currentMiniGame.SetActive(true);
+    }
+
+    public void CloseMinigame()
+    {
+        animator.Play("CloseMiniGame");
+        currentMiniGame.SetActive(false);
+
+    }
+
+    public void CloseBackGround()
+    {
+        backGround.SetActive(false);
+        GameManager.Instance.wait = false;
+    }
+
+    public void RestartMiniGame()
+    {
+        currentMiniGame.SetActive(false);
+        currentMiniGame.SetActive(true);
+    }
+
+    [Header("Bottone")]
+    [SerializeField] private Image buttonImage;
+    [SerializeField] private Sprite[] sprites;
+
+    public void Button()
+    {
+        active = !active;
+        int index = (active) ? 0 : 1;
+        buttonImage.sprite = sprites[index];
+    }
+
+    private void Awake() 
+    {
+        active = true;
+    }
+}

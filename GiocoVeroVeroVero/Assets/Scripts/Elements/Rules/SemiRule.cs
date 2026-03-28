@@ -1,12 +1,11 @@
 using UnityEngine;
 
-public class SemiRule : MonoBehaviour
+public class SemiRule : Rule
 {
-    private ElementAnimation elementAnimation;
-     private void Awake()
-    {
-        elementAnimation = GetComponent<ElementAnimation>();
-    }
+
+    [SerializeField] private GameElement gameElement;
+    [SerializeField] private GameObject gameObject;
+    [SerializeField] private GameObject lombrichi;
     public void Primo()
     {
         elementAnimation.PlayAnimation("Semi-Primo");
@@ -37,8 +36,114 @@ public class SemiRule : MonoBehaviour
         elementAnimation.PlayAnimation("Semi-Secondo");
     }
 
+    
+
     public void Uccello2()
     {
-        elementAnimation.PlayAnimation("Semi-Secondo2");
+        if(gameElement.level == 100)
+        {
+            elementAnimation.PlayAnimation("Semi-Secondo3");
+        }
+        else
+        {
+            if(lombrichi.activeSelf)
+            {
+                elementAnimation.PlayAnimation("Semi-Secondo4");
+                GameManager.Instance.ModifyTargetLevel2("Semi",50);
+                GameManager.Instance.ModifyTargetLevel2("Buco",50);
+                GameManager.Instance.RemoveElementFromHistory("Lombrichi");
+            }
+            else
+            {
+                elementAnimation.PlayAnimation("Semi-Secondo2");
+            }
+            
+        }
+        
     }
+
+    public void SemiSparsiPrimo()
+    {
+        if (gameObject.activeSelf)
+        {
+            elementAnimation.PlayAnimation("Semi-Sparsi2");
+        }
+        else
+        {
+           
+        }
+    }
+
+    public void SemiSparsiSecondo()
+    {
+        if (gameObject.activeSelf)
+        {
+            elementAnimation.PlayAnimation("Semi-Sparsi3");
+        }
+        else
+        {
+            elementAnimation.PlayAnimation("Semi-Sparsi-2");
+        }
+    }
+
+    public void SemiSparsiTerzo()
+    {
+        if (gameObject.activeSelf)
+        {
+            elementAnimation.PlayAnimation("Semi-Sparsi4");
+        }
+        else
+        {
+            elementAnimation.PlayAnimation("Semi-Sparsi-3");
+        }
+    }
+
+    public void SemiSparsiQuarto()
+    {
+        if (gameObject.activeSelf)
+        {
+            elementAnimation.PlayAnimation("Semi-Sparsi5");
+        }
+        else
+        {
+            elementAnimation.PlayAnimation("Semi-Sparsi-4");
+        }
+    }
+
+    public void SemiSparsiUltimo()
+    {
+        if (gameObject.activeSelf)
+        {
+            elementAnimation.PlayAnimation("Semi-SparsiMale1");
+        }
+        else
+        {
+           elementAnimation.PlayAnimation("Semi-SparsiMale-1");
+        }
+    }
+
+    public void SemiSparsiPenultimo()
+    {
+        if (gameObject.activeSelf)
+        {
+            elementAnimation.PlayAnimation("Semi-SparsiMale2");
+        }
+        else
+        {
+           elementAnimation.PlayAnimation("Semi-SparsiMale-2");
+        }
+    }
+
+    public void SemiSparsiTerzultimo()
+    {
+        if (gameObject.activeSelf)
+        {
+            elementAnimation.PlayAnimation("Semi-SparsiMale3");
+        }
+        else
+        {
+           elementAnimation.PlayAnimation("Semi-SparsiMale-3");
+        }
+    }
+    
 }

@@ -53,16 +53,14 @@ public class SecondMiniGame : MonoBehaviour
         timerSlider.value = 1;
         ResultsMenu.SetActive(false);
         wrongs=0;
+        currentArray = sprites[round].roundSprites;
+        StartCoroutine(CreateObjects());
     }
     private void Awake() 
     {
         Instance = this;
     }
-    void Start()
-    {
-        currentArray = sprites[round].roundSprites;
-        StartCoroutine(CreateObjects());
-    }
+
     private void Update() 
     {
         if (ActiveTimer)

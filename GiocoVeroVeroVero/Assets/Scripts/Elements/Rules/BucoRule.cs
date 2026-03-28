@@ -6,6 +6,7 @@ public class BucoRule : Rule
 
     public void Primo()
     {
+        
         elementAnimation.PlayAnimation("Buco-Primo");
         if(GameManager.Instance.checkHistory("Rami",0)) StartCoroutine(DestroyRami());
     }
