@@ -20,6 +20,11 @@ public class GameManager : MonoBehaviour
     public enum DayState { Normal, Auto, Transitioning}
     private int currentDay = 0;
     public DayState dayState;
+    public bool win= false;
+    public GameObject winObject;
+    public GameObject endObject;
+    public GameObject rami;
+    public GameObject face;
 
 
     [Header("Impostazione Scena")]
@@ -42,8 +47,9 @@ public class GameManager : MonoBehaviour
 
     private void StartDay()
     {
-        if (currentDay > 9)
+        if (currentDay > 8)
         {
+            Debug.Log("Ciao");
             GameOver();
             return;
         }
@@ -88,13 +94,20 @@ public class GameManager : MonoBehaviour
 
 
         currentDay++;
+        Debug.Log(currentDay);
         StartDay();           
     }
 
-     private void GameOver()
+    private void GameOver()
     {
         dayState = DayState.Transitioning;
-        // Show result 
+        if(win)
+        {
+            winObject.SetActive(true);
+            rami.SetActive(false);
+            face.SetActive(true);
+        }
+        endObject.SetActive(true);
     }
 
 
@@ -193,6 +206,26 @@ public class GameManager : MonoBehaviour
             History[index1] = History[index2];
             History[index2] = temp;
         }
+    }
+    public void MoveElementToPosition(string elementId, int targetPosition)
+    {
+        if (targetPosition < 0 || targetPosition >= History.Count) return;
+
+        int currentIndex = -1;
+        for (int i = 0; i < History.Count; i++)
+        {
+            if (History[i].id == elementId)
+            {
+                currentIndex = i;
+                break;
+            }
+        }
+
+        if (currentIndex == -1) return;
+
+        GameElement element = History[currentIndex];
+        History.RemoveAt(currentIndex);
+        History.Insert(targetPosition, element);
     }
 
     public void ModifyTargetLevel(string targetId, sbyte targetLevel, sbyte level)

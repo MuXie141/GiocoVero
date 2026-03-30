@@ -3,7 +3,6 @@ using System.Collections;
 
 public class BucoRule : Rule
 {
-
     public void Primo()
     {
         
@@ -29,6 +28,10 @@ public class BucoRule : Rule
 
     public void Terzo()
     {
+        if(GameManager.Instance.allElements[0].level == 50|| GameManager.Instance.allElements[0].level == 51)
+        {
+            return;
+        } 
         if(GameManager.Instance.checkHistory("Semi",-128))return;
         elementAnimation.PlayAnimation("Buco-Terzo");
     }
@@ -40,8 +43,4 @@ public class BucoRule : Rule
         GameManager.Instance.allElements[4].gameObject.GetComponentInChildren<ElementAnimation>().PlayAnimation("Rami-Ultimo");
         GameManager.Instance.allElements[4].level = -128;
     }
-
-    
-
-    
 }

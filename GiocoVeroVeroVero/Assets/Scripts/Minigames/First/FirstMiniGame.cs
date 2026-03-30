@@ -104,6 +104,7 @@ public class FirstMiniGame : MonoBehaviour
     private int wrongs;
     private int early ;
     public bool pressed = false;
+    private bool done = false;
 
     [Header("Messaggi Successo")]
     [SerializeField] private string[] positiveMessages;
@@ -112,12 +113,31 @@ public class FirstMiniGame : MonoBehaviour
         ResultsMenu.SetActive(false);
         ReadCSV();
         Instance = this;
-        StartCoroutine(WaitOneSecond());
+        if(done)
+        {
+          
+            currentWastesNumber= 0;
+            correct= 0;
+            misses = 0;
+            wrongs = 0;
+            early = 0;
+            NewWaste();
+        }
+        else
+        {
+            done = true;
+            StartCoroutine(WaitSeconds());
+        }
+        
     }
 
-    IEnumerator WaitOneSecond()
+    IEnumerator WaitSeconds()
     {
-        yield return null;
+        textMeshPro.text = "2 Prove Ascolto";
+        animator.Play("PrimoMinigioco2", 0, 0f);
+        yield return new WaitForSeconds(10f);
+        textMeshPro.text = "Go!";
+        yield return new WaitForSeconds(2f);
         
         currentWastesNumber= 0;
         correct= 0;

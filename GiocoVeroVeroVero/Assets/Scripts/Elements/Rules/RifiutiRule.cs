@@ -10,7 +10,7 @@ public class RifiutiRule : MonoBehaviour
     }
     public void Primo()
     {
-        if(GameManager.Instance.checkHistory("Semi",50))
+        if(GameManager.Instance.checkHistory("Buco",50))
         {
             Ultimo();
             return;

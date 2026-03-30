@@ -15,6 +15,7 @@ public class ThirdMiniGame: MonoBehaviour
     public float seedX;
     public float seedY;
     public ThirdMiniGameTile[,] tileGrid;
+    bool wait = false;
 
     //Vector2Int è Vector2 con Int, no float
     private Vector2Int[] directions = new Vector2Int[]
@@ -27,10 +28,12 @@ public class ThirdMiniGame: MonoBehaviour
 
     void Start()
     {
+        TickRate();
         seedX = Random.Range(0f, 99999f);
         seedY = Random.Range(0f, 99999f);
-        GenerateGrid();
-        StartCoroutine(TickRoutine());
+        Wind();
+        StartCoroutine(GenerateGrid());
+        
         
     }
     
@@ -63,8 +66,9 @@ public class ThirdMiniGame: MonoBehaviour
         crackle.PlayOneShot(thunder);
     }
 
-    void GenerateGrid()
+    IEnumerator GenerateGrid()
     {
+        wait = true;
         gridArray =  new GameObject[width, height];
         tileGrid = new ThirdMiniGameTile[width, height];
         RectTransform rectTransform = GetComponent<RectTransform>();
@@ -74,7 +78,8 @@ public class ThirdMiniGame: MonoBehaviour
 
         grid.cellSize = new Vector2(cellSize, cellSize);
         grid.constraintCount = width;
-
+        yield return null;
+        int num = 0;
         for (int y = 0; y < height; y++)
         {
             for (int x = 0; x < width; x++)
@@ -86,10 +91,21 @@ public class ThirdMiniGame: MonoBehaviour
                 tileGrid[x,y].y = y;
                 gridArray[x, y] = newCell;
                 tileGrid[x,y].SetUp(GetMixedNoise(x,y));
+                tileGrid[x,y].UpdateVisuals();
+                num++;
+                if(num>= 320)
+                {
+                    num=0;
+                    yield return new WaitForSeconds(0.0000001f);
+                }
+                
             }
         }
         StartCoroutine(WaitAndCalculate());
         RandomBurn();
+        crackle.Play();
+        coroutine = StartCoroutine(TickRoutine());
+        wait = false;
     }
 
     
@@ -126,8 +142,24 @@ public class ThirdMiniGame: MonoBehaviour
     //-____________________________________________________________________________________
 
     [Header("Tick Settings")]
-    [SerializeField] private float tickRate = 0.5f;
+    private float tickRate;
+    [SerializeField] private float maxTickRate = 0.23f;
+    [SerializeField] private float minTickRate = 0.4f;
+    private Coroutine coroutine;
     private bool isPaused = false;
+
+    void Wind()
+    {
+        Vector2Int[] directions = 
+        {
+            new Vector2Int(0, 1),
+            new Vector2Int(0, -1),
+            new Vector2Int(1, 0),
+            new Vector2Int(-1, 0)
+        };
+
+        windDirection = directions[Random.Range(0, directions.Length)];
+    }
 
     IEnumerator TickRoutine()
     {
@@ -282,7 +314,7 @@ public class ThirdMiniGame: MonoBehaviour
     {
         if(Input.GetMouseButton(0))
         {
-            if (Time.time >= nextFireTime)
+            if (Time.time >= nextFireTime&&!wait)
             {
                 Vector3 mousePos = Input.mousePosition;
                 mousePos.z = Mathf.Abs(Camera.main.transform.position.z); 
@@ -334,7 +366,7 @@ public class ThirdMiniGame: MonoBehaviour
         if (burningCount == 0 && !resultsPanel.activeSelf|| onlyPlayerFire)
         {
             ShowResults(healthyCount, burntCount);
-            crackle.Stop();
+            StartCoroutine(FadeAndStop(crackle,0.7f));
         }
     }
 
@@ -357,11 +389,22 @@ public class ThirdMiniGame: MonoBehaviour
         gridArray = null;
         tileGrid = null;
     }
-     void OnEnable()
+
+    void TickRate()
     {
+        float t = Mathf.Pow(Random.value, 0.5f);
+        tickRate = Mathf.Lerp(minTickRate, maxTickRate, t);
+    }
+    public void Restart()
+    {
+        Wind();
+        TickRate();
         resultsPanel.SetActive(false);
+        seedX = Random.Range(0f, 99999f);
+        seedY = Random.Range(0f, 99999f);
+        StopCoroutine(coroutine);
         ClearExistingGrid();
-        GenerateGrid();
+        StartCoroutine(GenerateGrid());
     }
 
     //____________________________________________________________________________________________
@@ -391,6 +434,20 @@ public class ThirdMiniGame: MonoBehaviour
 
 
         crackle.PlayOneShot(ignite);
+    }
+
+    IEnumerator FadeAndStop(AudioSource source, float duration)
+    {
+        float startVolume = source.volume;
+
+        while (source.volume > 0)
+        {
+            source.volume -= startVolume * Time.deltaTime / duration;
+            yield return null;
+        }
+
+        source.Stop();
+        source.volume = startVolume;
     }
     
 

@@ -53,6 +53,7 @@ public class SecondMiniGame : MonoBehaviour
         timerSlider.value = 1;
         ResultsMenu.SetActive(false);
         wrongs=0;
+        round = 0;
         currentArray = sprites[round].roundSprites;
         StartCoroutine(CreateObjects());
     }
@@ -84,16 +85,16 @@ public class SecondMiniGame : MonoBehaviour
 
     IEnumerator StartFill()
     {
-        float elapsed = 0f;
+        float duration = 0f;
 
-        while (elapsed < 1f)
+        while (duration < 1f)
         {
-            elapsed += Time.deltaTime;
+            duration += Time.deltaTime;
             
-            timerSlider.value = Mathf.Lerp(0, timerSlider.maxValue, elapsed / 1f);
+            timerSlider.value = Mathf.Lerp(0, timerSlider.maxValue, duration / 1f);
 
-            Color coloreTarget = (elapsed < 1 * 0.3f) ? red : green;
-            fillImage.color = Color.Lerp(fillImage.color, coloreTarget, elapsed / 1f);
+            Color coloreTarget = (duration < 1 * 0.3f) ? red : green;
+            fillImage.color = Color.Lerp(fillImage.color, coloreTarget, duration / 1f);
             
             yield return null;
         }

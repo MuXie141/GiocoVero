@@ -32,7 +32,7 @@ public class SferaRule : Rule
     }
     public void Swap()
     {
-        GameManager.Instance.SwapElements("Buco","Sfera");
+        GameManager.Instance.SwapElements("Buco", "Sfera");
         Debug.Log("Swap");
     }
 
@@ -48,6 +48,11 @@ public class SferaRule : Rule
 
     public void Sesto()
     {
+        if(GameManager.Instance.allElements[0].level == 50|| GameManager.Instance.allElements[0].level == 51)
+        {
+            GameManager.Instance.allElements[1].level = -55;
+            return;
+        } 
         elementAnimation.PlayAnimation("Sfera-Sesto");
     }
 

@@ -13,6 +13,7 @@ public class SemiRule : Rule
 
     public void Secondo()
     {
+        
         elementAnimation.PlayAnimation("Fiori-Primo");
     }
 
@@ -23,6 +24,7 @@ public class SemiRule : Rule
 
     public void Quarto()
     {
+        GameManager.Instance.win= true;
         elementAnimation.PlayAnimation("Fiori-Terzo");
     }
 

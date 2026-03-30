@@ -199,7 +199,7 @@ Verdura,SECCO,UMIDO,Residuo organico: Umido
 Ceneri legno,SECCO,UMIDO,Legno combusto: Umido
 Escrementi animali,SECCO,UMIDO,Residuo organico: Umido
 Capelli e peli,SECCO,UMIDO,Fibra naturale: Umido
-Conchiglie,SECCO,UMIDO,Calcare non compostabile: Secco
+Conchiglie,UMIDO,SECCO,Calcare non compostabile: Secco
 Lische pesce,SECCO,UMIDO,Residuo organico: Umido
 Pezzo di pizza avanzato,SECCO,UMIDO,Avanzo alimentare: Umido
 Mela,SECCO,UMIDO,Avanzo naturale: Umido

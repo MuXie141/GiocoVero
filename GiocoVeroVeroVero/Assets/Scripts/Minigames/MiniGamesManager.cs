@@ -12,15 +12,29 @@ public class MinigamesManager : MonoBehaviour
     [SerializeField] private GameObject num;
     [SerializeField] private GameObject backGround;
     public bool active= true;
+    [SerializeField] private AudioClip countDownClip;
+    [SerializeField] private AudioClip startClip;
+    [SerializeField] private GameObject buttonConferma;
+    [SerializeField] private GameObject buttonX;
+    private bool doNotOpen;
     public void OpenMinigame(GameObject minigame)
     {
         if(!active) return;
+        doNotOpen=false;
         GameManager.Instance.wait = true;
         animator.Play("StartMiniGame");
         backGround.SetActive(true);
         miniGameMenu.SetActive(true);
+        buttonX.SetActive(true);
+        buttonConferma.SetActive(false);
         currentMiniGame = minigame;
         image.sprite = minigame.GetComponent<Image>().sprite; 
+        image.SetNativeSize();
+    }
+
+    public void ActivateButtonConferm()
+    {
+        buttonConferma.SetActive(true);
     }
 
     public void StartMiniGameCoroutine()
@@ -34,15 +48,19 @@ public class MinigamesManager : MonoBehaviour
         num.SetActive(true);
         for (int i = 0; i < countDown.Length; i++) 
         {
+            SoundFXManager.Instance.PlayAudio(countDownClip);
             num.GetComponent<Image>().sprite = countDown[i]; 
             yield return new WaitForSeconds(1f);
         }
+        SoundFXManager.Instance.PlayAudio(startClip);
         num.SetActive(false);
+        if(doNotOpen) yield break;
         currentMiniGame.SetActive(true);
     }
 
     public void CloseMinigame()
     {
+        doNotOpen = true;
         animator.Play("CloseMiniGame");
         currentMiniGame.SetActive(false);
 
@@ -54,6 +72,10 @@ public class MinigamesManager : MonoBehaviour
         GameManager.Instance.wait = false;
     }
 
+    /*public void MakeSureItsClosed()
+    {
+        currentMiniGame.SetActive(false);
+    }*/
     public void RestartMiniGame()
     {
         currentMiniGame.SetActive(false);
