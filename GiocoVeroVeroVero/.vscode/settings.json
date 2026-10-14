@@ -67,5 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "GiocoVeroVeroVero.slnx"
+    "dotnet.defaultSolution": "GiocoVeroVeroVero.slnx",
+    "C_Cpp.errorSquiggles": "disabled"
 }

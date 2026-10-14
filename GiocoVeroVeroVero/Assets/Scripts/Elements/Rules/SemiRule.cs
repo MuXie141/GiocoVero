@@ -24,7 +24,11 @@ public class SemiRule : Rule
 
     public void Quarto()
     {
-        GameManager.Instance.win= true;
+        if(GameManager.Instance.allElements[1].level==8)
+        {
+            GameManager.Instance.win= true;
+        }
+        
         elementAnimation.PlayAnimation("Fiori-Terzo");
     }
 
@@ -57,6 +61,7 @@ public class SemiRule : Rule
             }
             else
             {
+                GameManager.Instance.ModifyTargetLevel2("Semi",-128);
                 elementAnimation.PlayAnimation("Semi-Secondo2");
             }
             

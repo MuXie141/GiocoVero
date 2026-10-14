@@ -272,8 +272,7 @@ public class GameManager : MonoBehaviour
     }*/
     [Header("Turn Settings")]
     [SerializeField] private float autoTurnDelay = 2f;    
-    [SerializeField] private float animationPollInterval = 0.1f;
-
+    
 
     
 

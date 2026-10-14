@@ -178,11 +178,13 @@ public class FirstMiniGame : MonoBehaviour
 
     void NewWaste()
     {
+        
         if(currentWastesNumber>=wastesAmount)
         {
            ShowResults();
            return;  
         }
+        doNotMiss = false;
         currentWastesNumber++;
         pressed = false;
         int randomIndex = UnityEngine.Random.Range(0,wastes.Count);
@@ -209,7 +211,7 @@ public class FirstMiniGame : MonoBehaviour
                 UpdateScene(currentWaste.name , currentWaste.correct,wasteType);
             }
         }
-
+        
         animator.Play("PrimoMiniGioco1", 0, 0f);
         
     }
@@ -246,6 +248,7 @@ public class FirstMiniGame : MonoBehaviour
 
     void CheckInput(WasteType wasteType)
     {
+        doNotMiss = true;
         pressed = true;
         FirstMiniGame2.Instance.canInput = false;
         
@@ -282,9 +285,10 @@ public class FirstMiniGame : MonoBehaviour
         }
         note.gameObject.SetActive(false);
     }
-
+    bool doNotMiss;
     public void Miss()
     {
+        if(doNotMiss) return;
         misses++;
         FirstMiniGame2.Instance.PlayMissAudio();
         StartCoroutine(ShowNote("Miss", Color.grey));
@@ -293,6 +297,7 @@ public class FirstMiniGame : MonoBehaviour
 
     void Early()
     {
+        doNotMiss = true;
         FirstMiniGame2.Instance.canInput = false;
         early++;
         FirstMiniGame2.Instance.PlayMissAudio();
